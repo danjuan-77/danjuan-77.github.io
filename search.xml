@@ -10,36 +10,239 @@
       </tags>
   </entry>
   <entry>
-    <title>递归与递推——递归实现指数型枚举</title>
-    <url>/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8C%87%E6%95%B0%E5%9E%8B%E6%9E%9A%E4%B8%BE/</url>
-    <content><![CDATA[<p>从 1∼n 这 n 个整数中随机选取任意多个，输出所有可能的选择方案。</p>
-<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>输入一个整数 n。</p>
-<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>每行输出一种方案。</p>
-<p>同一行内的数必须升序排列，相邻两个数用恰好 11 个空格隔开。</p>
-<p>对于没有选任何数的方案，输出空行。</p>
-<p>本题有自定义校验器（SPJ），各行（不同方案）之间的顺序任意。</p>
-<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1≤n≤15，1≤n≤15</p>
-<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+    <title>Hello World</title>
+    <url>/2022/02/26/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">2</span><br><span class="line">2 3</span><br><span class="line">1</span><br><span class="line">1 3</span><br><span class="line">1 2</span><br><span class="line">1 2 3</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Markdown 语法</title>
+    <url>/2022/02/27/Markdown-%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="Markdown-段落"><a href="#Markdown-段落" class="headerlink" title="Markdown 段落"></a>Markdown 段落</h1><p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落的换行是使用两个以上空格加上回车</strong>。</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg" alt="img"></p>
+<p>当然也可以在段落后面使用一个空行来表示重新开始一个段落。</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014362.jpeg" alt="img"></p>
+<hr>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown 可以使用以下几种字体：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure>
 
+<p>显示效果如下所示：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/md3.gif" alt="img"></p>
+<hr>
+<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">* * *</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br><span class="line"></span><br><span class="line">----------</span><br></pre></td></tr></table></figure>
 
-<p>代码实现：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n;<span class="comment">//输入</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">16</span>;<span class="comment">//全局变量</span></span><br><span class="line"><span class="type">int</span> s[N];<span class="comment">//用来记录这个位置选不选这个数，0表示未选，1表示选了，2表示不选</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> u)</span><span class="comment">//深度优先搜索</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(u&gt;n)<span class="comment">//出口，当u已经大于n的时候，说明n个位置的数已经被填满了</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="number">1</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">    s[u]=<span class="number">1</span>;<span class="comment">//说明这个位置选</span></span><br><span class="line">    <span class="built_in">dfs</span>(u+<span class="number">1</span>);</span><br><span class="line">   <span class="comment">//这中间其实应该有一个复原操作，但是立马又被赋值了，就省略掉</span></span><br><span class="line">    s[u]=<span class="number">2</span>;<span class="comment">//这个位置的数不选</span></span><br><span class="line">    <span class="built_in">dfs</span>(u+<span class="number">1</span>);</span><br><span class="line">    s[u]=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>显示效果如下所示：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014364.jpeg" alt="img"></p>
+<hr>
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可，实例如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RUNOOB.COM</span><br><span class="line">GOOGLE.COM</span><br><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071951847.png" alt="image-20220307195145723"></p>
-<p>采取深度优先搜索的时候，就是最开始就一条道走到黑，如图就是最左侧那套路线</p>
-<p><strong>当碰壁之后，就会进行溯回</strong></p>
-<p>注意，每次溯回都会执行当前栈中的程序</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071945540.png" alt="image-20220307194531489"></p>
-<p>也就是第一个dfs(u+1)执行完毕后溯回到这一层，就会执行下面的dfs(u+1)</p>
-<p>也就是路线4，回到上一层后就会继续执行路线5，然后回溯，走6，接着回溯，走7，依次类推</p>
+<p>显示效果如下所示：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/B5270A31-15D0-410B-AE1D-B9655B8F331C.jpg" alt="img"></p>
+<hr>
+<h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线可以通过 HTML 的 <strong><u></strong> 标签来实现：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下所示：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014302.jpeg" alt="img"></p>
+<hr>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注是对文本的补充说明。</p>
+<p>Markdown 脚注的格式如下:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[^要注明的文本]</span><br></pre></td></tr></table></figure>
+
+<p>以下实例演示了脚注的用法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建脚注格式类似这样 [^RUNOOB]。</span><br><span class="line"></span><br><span class="line">[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！</span><br></pre></td></tr></table></figure>
+
+<p>演示效果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014308.gif" alt="img"></p>
+<h1 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h1><p>Markdown 支持有序列表和无序列表。</p>
+<p>无序列表使用星号(<em>****)、加号(<strong>+</strong>)或是减号(</em>*-**)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014477.jpeg" alt="img"></p>
+<p>有序列表使用数字并加上 <strong>.</strong> 号来表示，如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/560384BB-2B00-41D5-ACF2-18972F7F2775.jpg" alt="img"></p>
+<h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><p>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/8ED795DA-F124-4E70-BA71-57CD9CF958A4.jpg" alt="img"></p>
+<h1 id="Markdown-区块"><a href="#Markdown-区块" class="headerlink" title="Markdown 区块"></a>Markdown 区块</h1><p>Markdown 区块引用是在段落开头使用 <strong>&gt;</strong> 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 区块引用</span><br><span class="line">&gt; 菜鸟教程</span><br><span class="line">&gt; 学的不仅是技术更是梦想</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/DFE1124E-BC38-4C12-B7AC-053E560D4C9C.jpg" alt="img"></p>
+<p>另外区块是可以嵌套的，一个 <strong>&gt;</strong> 符号是最外层，两个 <strong>&gt;</strong> 符号是第一层嵌套，以此类推：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/AA0A4A6A-33A7-48C7-971F-73FFC8FE85B0.jpg" alt="img"></p>
+<h3 id="区块中使用列表"><a href="#区块中使用列表" class="headerlink" title="区块中使用列表"></a>区块中使用列表</h3><p>区块中使用列表实例如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; 1. 第一项</span><br><span class="line">&gt; 2. 第二项</span><br><span class="line">&gt; + 第一项</span><br><span class="line">&gt; + 第二项</span><br><span class="line">&gt; + 第三项</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014383.jpeg" alt="img"></p>
+<h3 id="列表中使用区块"><a href="#列表中使用区块" class="headerlink" title="列表中使用区块"></a>列表中使用区块</h3><p>如果要在列表项目内放进区块，那么就需要在 <strong>&gt;</strong> 前添加四个空格的缩进。</p>
+<p>列表中使用区块实例如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 菜鸟教程</span><br><span class="line">    &gt; 学的不仅是技术更是梦想</span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/1B894FB4-53AC-4E2D-BA30-F4AE4DFA8B97.jpg" alt="img"></p>
+<h1 id="Markdown-代码"><a href="#Markdown-代码" class="headerlink" title="Markdown 代码"></a>Markdown 代码</h1><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（**&#96;**），例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`printf()` 函数</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014571.jpeg" alt="img"></p>
+<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><p>代码区块使用 <strong>4 个空格</strong>或者一个<strong>制表符（Tab 键）</strong>。</p>
+<p>实例如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg" alt="img"></p>
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/6DC89E5C-B41A-4938-97D8-D7D06B879F91.jpg" alt="img"></p>
+<p>你也可以用 <strong>&#96;&#96;&#96;</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```javascript</span><br><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(&#x27;RUNOOB&#x27;);</span><br><span class="line">&#125;);</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014825.jpeg" alt="img"></p>
+<h1 id="Markdown-链接"><a href="#Markdown-链接" class="headerlink" title="Markdown 链接"></a>Markdown 链接</h1><p>链接使用方法如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+
+<p>例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [菜鸟教程](https://www.runoob.com)</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014318.jpeg" alt="img"></p>
+<p>直接使用链接地址：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.runoob.com&gt;</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014880.jpeg" alt="img"></p>
+<h3 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h3><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [Google][1]</span><br><span class="line">这个链接用 runoob 作为网址变量 [Runoob][runoob]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [runoob]: http://www.runoob.com/</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/EC3ED5D2-4F0D-492A-81B3-D485623D1A9E.jpg" alt="img"></p>
+<h1 id="Markdown-图片"><a href="#Markdown-图片" class="headerlink" title="Markdown 图片"></a>Markdown 图片</h1><p>Markdown 图片语法格式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt 属性文本](图片地址)</span><br><span class="line"></span><br><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>开头一个感叹号 !</li>
+<li>接着一个方括号，里面放上图片的替代文字</li>
+<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。</li>
+</ul>
+<p>使用实例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)</span><br><span class="line"></span><br><span class="line">![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png &quot;RUNOOB&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg" alt="img"></p>
+<p>当然，你也可以像网址那样对图片网址使用变量:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [RUNOOB][1].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[1]: http://static.runoob.com/images/runoob-logo.png</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014964.jpeg" alt="img"></p>
+<p>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;img src=&quot;http://static.runoob.com/images/runoob-logo.png&quot; width=&quot;50%&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014047.jpeg" alt="img"></p>
+<h1 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a>Markdown 表格</h1><p>Markdown 制作表格使用 <strong>|</strong> 来分隔不同的单元格，使用 <strong>-</strong> 来分隔表头和其他行。</p>
+<p>语法格式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<p>以上代码显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014430.jpeg" alt="img"></p>
+<p>对齐方式</p>
+<p><strong>我们可以设置表格的对齐方式：</strong></p>
+<ul>
+<li><strong>-:</strong> 设置内容和标题栏居右对齐。</li>
+<li><strong>:-</strong> 设置内容和标题栏居左对齐。</li>
+<li><strong>:-:</strong> 设置内容和标题栏居中对齐。</li>
+</ul>
+<p>实例如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
+
+<p>以上代码显示结果如下：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014859.jpeg" alt="img"></p>
+<h1 id="Markdown-高级技巧"><a href="#Markdown-高级技巧" class="headerlink" title="Markdown 高级技巧"></a>Markdown 高级技巧</h1><h3 id="支持的-HTML-元素"><a href="#支持的-HTML-元素" class="headerlink" title="支持的 HTML 元素"></a>支持的 HTML 元素</h3><p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
+<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等 ，如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑</span><br></pre></td></tr></table></figure>
+
+<p>输出结果为：</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014881.jpeg" alt="img"></p>
+<h3 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h3><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**文本加粗** </span><br><span class="line">\*\* 正常显示星号 \*\*</span><br></pre></td></tr></table></figure>
+
+<p>输出结果为：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg" alt="img"></p>
+<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
+
+<h3 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h3><p><strong>Markdown Preview Enhanced</strong> 使用 <a href="https://github.com/Khan/KaTeX">KaTeX</a> 或者 <a href="https://github.com/mathjax/MathJax">MathJax</a> 来渲染数学表达式。</p>
+<p>KaTeX 拥有比 MathJax 更快的性能，但是它却少了很多 MathJax 拥有的特性。你可以查看 KaTeX supported functions&#x2F;symbols 来了解 KaTeX 支持那些符号和函数。</p>
+<p>默认下的分隔符：</p>
+<ul>
+<li><code>$...$</code> 或者 <code>\(...\)</code> 中的数学表达式将会在行内显示。</li>
+<li><code>$$...$$</code> 或者 <code>\[...\]</code> 或者 &#96;&#96;&#96;&#96;math&#96; 中的数学表达式将会在块内显示。</li>
+</ul>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/0e408954-fda8-11e5-9eb4-562d7c0ca431.gif" alt="img"></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;Bmatrix&#125;</span><br><span class="line">   a &amp; b \\</span><br><span class="line">   c &amp; d</span><br><span class="line">\end&#123;Bmatrix&#125;</span><br><span class="line">$$</span><br><span class="line">$$</span><br><span class="line">\begin&#123;CD&#125;</span><br><span class="line">   A @&gt;a&gt;&gt; B \\</span><br><span class="line">@VbVV @AAcA \\</span><br><span class="line">   C @= D</span><br><span class="line">\end&#123;CD&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<p>输出结果为：</p>
+<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/A9031CEB-04DB-4822-9C98-2E99489D3662.jpeg" alt="img"></p>
+<p> <a href="https://www.runoob.com/markdown/md-table.html">Markdown 表格</a></p>
+<h2 id="1-篇笔记-写笔记"><a href="#1-篇笔记-写笔记" class="headerlink" title="1 篇笔记 写笔记"></a>1 篇笔记 写笔记</h2><p>1. </p>
+<p>   adc</p>
+<p>   928***<a href="mailto:&#x35;&#x32;&#x38;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;">&#x35;&#x32;&#x38;&#64;&#x71;&#x71;&#46;&#x63;&#111;&#109;</a></p>
+<p>   <a href="https://jingyan.baidu.com/article/48b558e3035d9a7f38c09aeb.html"> 参考地址</a></p>
+<p>   959</p>
+<h3 id="typora-画流程图、时序图-顺序图-、甘特图"><a href="#typora-画流程图、时序图-顺序图-、甘特图" class="headerlink" title="typora 画流程图、时序图(顺序图)、甘特图"></a>typora 画流程图、时序图(顺序图)、甘特图</h3><p>   复制以下代码使用 typora 的源码模式粘贴到编辑器中查看效果：</p>
+<p>   <img src="https://www.runoob.com/wp-content/uploads/2019/03/22A9BC11-BA3E-40D8-90B0-DC4FD29F9C02.jpg" alt="img"></p>
+<p>   以下几个实例效果图如下：</p>
+<p>   <strong>1、横向流程图源码格式：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>2、竖向流程图源码格式：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph TD</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt; |a=1| D[结果1]</span><br><span class="line">    C --&gt; |a=2| E[结果2]</span><br><span class="line">    F[竖向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>3、标准流程图源码格式：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>4、标准流程图源码格式（横向）：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st(right)-&gt;op(right)-&gt;cond</span><br><span class="line">cond(yes)-&gt;io(bottom)-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>5、UML时序图源码样例：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```sequence</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>6、UML时序图源码复杂样例：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```sequence</span><br><span class="line">Title: 标题：复杂使用</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象B-&gt;小三: 你好吗</span><br><span class="line">小三--&gt;&gt;对象A: 对象B找我了</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">Note over 小三,对象B: 我们是朋友</span><br><span class="line">participant C</span><br><span class="line">Note right of C: 没人陪我玩</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>7、UML标准时序图样例：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    participant 张三</span><br><span class="line">    participant 李四</span><br><span class="line">    张三-&gt;王五: 王五你好吗？</span><br><span class="line">    loop 健康检查</span><br><span class="line">        王五-&gt;王五: 与疾病战斗</span><br><span class="line">    end</span><br><span class="line">    Note right of 王五: 合理 食物 &lt;br/&gt;看医生...</span><br><span class="line">    李四--&gt;&gt;张三: 很好!</span><br><span class="line">    王五-&gt;李四: 你怎么样?</span><br><span class="line">    李四--&gt;王五: 很好!</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   <strong>8、甘特图样例：</strong></p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">%% 语法示例</span><br><span class="line">        gantt</span><br><span class="line">        dateFormat  YYYY-MM-DD</span><br><span class="line">        title 软件开发甘特图</span><br><span class="line">        section 设计</span><br><span class="line">        需求                      :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">        原型                      :active,  des2, 2014-01-09, 3d</span><br><span class="line">        UI设计                     :         des3, after des2, 5d</span><br><span class="line">    未来任务                     :         des4, after des3, 5d</span><br><span class="line">        section 开发</span><br><span class="line">        学习准备理解需求                      :crit, done, 2014-01-06,24h</span><br><span class="line">        设计框架                             :crit, done, after des2, 2d</span><br><span class="line">        开发                                 :crit, active, 3d</span><br><span class="line">        未来任务                              :crit, 5d</span><br><span class="line">        耍                                   :2d</span><br><span class="line">        section 测试</span><br><span class="line">        功能测试                              :active, a1, after des3, 3d</span><br><span class="line">        压力测试                               :after a1  , 20h</span><br><span class="line">        测试报告                               : 48h</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+<p>   效果图如下：</p>
+<p>   <img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014995.png" alt="img"></p>
 ]]></content>
       <tags>
-        <tag>递归</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -291,244 +494,97 @@
       </tags>
   </entry>
   <entry>
-    <title>计算机网络学习01</title>
-    <url>/2022/02/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A001/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Markdown 语法</title>
-    <url>/2022/02/27/Markdown-%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="Markdown-段落"><a href="#Markdown-段落" class="headerlink" title="Markdown 段落"></a>Markdown 段落</h1><p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落的换行是使用两个以上空格加上回车</strong>。</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/36A89BDA-A062-4D66-A41B-0EBEE7891AB9.jpg" alt="img"></p>
-<p>当然也可以在段落后面使用一个空行来表示重新开始一个段落。</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014362.jpeg" alt="img"></p>
-<hr>
-<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown 可以使用以下几种字体：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure>
+    <title>递归与递推——递归实现指数型枚举</title>
+    <url>/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8C%87%E6%95%B0%E5%9E%8B%E6%9E%9A%E4%B8%BE/</url>
+    <content><![CDATA[<blockquote>
+<p>所谓指数型枚举，就是把挑选出任意个数的数的所有方案进行枚举</p>
+</blockquote>
+<p>从 1∼n 这 n 个整数中随机选取任意多个，输出所有可能的选择方案。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>输入一个整数 n。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>每行输出一种方案。</p>
+<p>同一行内的数必须升序排列，相邻两个数用恰好 11 个空格隔开。</p>
+<p>对于没有选任何数的方案，输出空行。</p>
+<p>本题有自定义校验器（SPJ），各行（不同方案）之间的顺序任意。</p>
+<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1≤n≤15，1≤n≤15</p>
+<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
 
-<p>显示效果如下所示：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/md3.gif" alt="img"></p>
-<hr>
-<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line"></span><br><span class="line">* * *</span><br><span class="line"></span><br><span class="line">*****</span><br><span class="line"></span><br><span class="line">- - -</span><br><span class="line"></span><br><span class="line">----------</span><br></pre></td></tr></table></figure>
+<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">2</span><br><span class="line">2 3</span><br><span class="line">1</span><br><span class="line">1 3</span><br><span class="line">1 2</span><br><span class="line">1 2 3</span><br></pre></td></tr></table></figure>
 
-<p>显示效果如下所示：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014364.jpeg" alt="img"></p>
-<hr>
-<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <strong>~~</strong> 即可，实例如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">RUNOOB.COM</span><br><span class="line">GOOGLE.COM</span><br><span class="line">~~BAIDU.COM~~</span><br></pre></td></tr></table></figure>
 
-<p>显示效果如下所示：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/B5270A31-15D0-410B-AE1D-B9655B8F331C.jpg" alt="img"></p>
-<hr>
-<h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p>下划线可以通过 HTML 的 <strong><u></strong> 标签来实现：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;</span><br></pre></td></tr></table></figure>
 
-<p>显示效果如下所示：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014302.jpeg" alt="img"></p>
-<hr>
-<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注是对文本的补充说明。</p>
-<p>Markdown 脚注的格式如下:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[^要注明的文本]</span><br></pre></td></tr></table></figure>
 
-<p>以下实例演示了脚注的用法：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">创建脚注格式类似这样 [^RUNOOB]。</span><br><span class="line"></span><br><span class="line">[^RUNOOB]: 菜鸟教程 -- 学的不仅是技术，更是梦想！！！</span><br></pre></td></tr></table></figure>
 
-<p>演示效果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014308.gif" alt="img"></p>
-<h1 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h1><p>Markdown 支持有序列表和无序列表。</p>
-<p>无序列表使用星号(<em>****)、加号(<strong>+</strong>)或是减号(</em>*-**)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">* 第二项</span><br><span class="line">* 第三项</span><br><span class="line"></span><br><span class="line">+ 第一项</span><br><span class="line">+ 第二项</span><br><span class="line">+ 第三项</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">- 第一项</span><br><span class="line">- 第二项</span><br><span class="line">- 第三项</span><br></pre></td></tr></table></figure>
+<p>代码实现：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n;<span class="comment">//输入</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">16</span>;<span class="comment">//全局变量</span></span><br><span class="line"><span class="type">int</span> s[N];<span class="comment">//用来记录这个位置选不选这个数，0表示未选，1表示选了，2表示不选</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> u)</span><span class="comment">//深度优先搜索</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(u&gt;n)<span class="comment">//出口，当u已经大于n的时候，说明n个位置的数已经被填满了</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="number">1</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">    s[u]=<span class="number">1</span>;<span class="comment">//说明这个位置选</span></span><br><span class="line">    <span class="built_in">dfs</span>(u+<span class="number">1</span>);</span><br><span class="line">   <span class="comment">//这中间其实应该有一个复原操作，但是立马又被赋值了，就省略掉</span></span><br><span class="line">    s[u]=<span class="number">2</span>;<span class="comment">//这个位置的数不选</span></span><br><span class="line">    <span class="built_in">dfs</span>(u+<span class="number">1</span>);</span><br><span class="line">    s[u]=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014477.jpeg" alt="img"></p>
-<p>有序列表使用数字并加上 <strong>.</strong> 号来表示，如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/560384BB-2B00-41D5-ACF2-18972F7F2775.jpg" alt="img"></p>
-<h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><p>列表嵌套只需在子列表中的选项前面添加四个空格即可：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/8ED795DA-F124-4E70-BA71-57CD9CF958A4.jpg" alt="img"></p>
-<h1 id="Markdown-区块"><a href="#Markdown-区块" class="headerlink" title="Markdown 区块"></a>Markdown 区块</h1><p>Markdown 区块引用是在段落开头使用 <strong>&gt;</strong> 符号 ，然后后面紧跟一个<strong>空格</strong>符号：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 区块引用</span><br><span class="line">&gt; 菜鸟教程</span><br><span class="line">&gt; 学的不仅是技术更是梦想</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/DFE1124E-BC38-4C12-B7AC-053E560D4C9C.jpg" alt="img"></p>
-<p>另外区块是可以嵌套的，一个 <strong>&gt;</strong> 符号是最外层，两个 <strong>&gt;</strong> 符号是第一层嵌套，以此类推：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/AA0A4A6A-33A7-48C7-971F-73FFC8FE85B0.jpg" alt="img"></p>
-<h3 id="区块中使用列表"><a href="#区块中使用列表" class="headerlink" title="区块中使用列表"></a>区块中使用列表</h3><p>区块中使用列表实例如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; 区块中使用列表</span><br><span class="line">&gt; 1. 第一项</span><br><span class="line">&gt; 2. 第二项</span><br><span class="line">&gt; + 第一项</span><br><span class="line">&gt; + 第二项</span><br><span class="line">&gt; + 第三项</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014383.jpeg" alt="img"></p>
-<h3 id="列表中使用区块"><a href="#列表中使用区块" class="headerlink" title="列表中使用区块"></a>列表中使用区块</h3><p>如果要在列表项目内放进区块，那么就需要在 <strong>&gt;</strong> 前添加四个空格的缩进。</p>
-<p>列表中使用区块实例如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 菜鸟教程</span><br><span class="line">    &gt; 学的不仅是技术更是梦想</span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/1B894FB4-53AC-4E2D-BA30-F4AE4DFA8B97.jpg" alt="img"></p>
-<h1 id="Markdown-代码"><a href="#Markdown-代码" class="headerlink" title="Markdown 代码"></a>Markdown 代码</h1><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（**&#96;**），例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`printf()` 函数</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014571.jpeg" alt="img"></p>
-<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><p>代码区块使用 <strong>4 个空格</strong>或者一个<strong>制表符（Tab 键）</strong>。</p>
-<p>实例如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/55EDFE05-5F27-458E-AFE0-7B96685C9603.jpg" alt="img"></p>
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/6DC89E5C-B41A-4938-97D8-D7D06B879F91.jpg" alt="img"></p>
-<p>你也可以用 <strong>&#96;&#96;&#96;</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```javascript</span><br><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(&#x27;RUNOOB&#x27;);</span><br><span class="line">&#125;);</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014825.jpeg" alt="img"></p>
-<h1 id="Markdown-链接"><a href="#Markdown-链接" class="headerlink" title="Markdown 链接"></a>Markdown 链接</h1><p>链接使用方法如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
-
-<p>例如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [菜鸟教程](https://www.runoob.com)</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014318.jpeg" alt="img"></p>
-<p>直接使用链接地址：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://www.runoob.com&gt;</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014880.jpeg" alt="img"></p>
-<h3 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h3><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [Google][1]</span><br><span class="line">这个链接用 runoob 作为网址变量 [Runoob][runoob]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [runoob]: http://www.runoob.com/</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/EC3ED5D2-4F0D-492A-81B3-D485623D1A9E.jpg" alt="img"></p>
-<h1 id="Markdown-图片"><a href="#Markdown-图片" class="headerlink" title="Markdown 图片"></a>Markdown 图片</h1><p>Markdown 图片语法格式如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![alt 属性文本](图片地址)</span><br><span class="line"></span><br><span class="line">![alt 属性文本](图片地址 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>开头一个感叹号 !</li>
-<li>接着一个方括号，里面放上图片的替代文字</li>
-<li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 ‘title’ 属性的文字。</li>
-</ul>
-<p>使用实例：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)</span><br><span class="line"></span><br><span class="line">![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png &quot;RUNOOB&quot;)</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg" alt="img"></p>
-<p>当然，你也可以像网址那样对图片网址使用变量:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [RUNOOB][1].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[1]: http://static.runoob.com/images/runoob-logo.png</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014964.jpeg" alt="img"></p>
-<p>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;img src=&quot;http://static.runoob.com/images/runoob-logo.png&quot; width=&quot;50%&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-<p>显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014047.jpeg" alt="img"></p>
-<h1 id="Markdown-表格"><a href="#Markdown-表格" class="headerlink" title="Markdown 表格"></a>Markdown 表格</h1><p>Markdown 制作表格使用 <strong>|</strong> 来分隔不同的单元格，使用 <strong>-</strong> 来分隔表头和其他行。</p>
-<p>语法格式如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |</span><br><span class="line">|  ----  | ----  |</span><br><span class="line">| 单元格  | 单元格 |</span><br><span class="line">| 单元格  | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<p>以上代码显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014430.jpeg" alt="img"></p>
-<p>对齐方式</p>
-<p><strong>我们可以设置表格的对齐方式：</strong></p>
-<ul>
-<li><strong>-:</strong> 设置内容和标题栏居右对齐。</li>
-<li><strong>:-</strong> 设置内容和标题栏居左对齐。</li>
-<li><strong>:-:</strong> 设置内容和标题栏居中对齐。</li>
-</ul>
-<p>实例如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>
-
-<p>以上代码显示结果如下：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014859.jpeg" alt="img"></p>
-<h1 id="Markdown-高级技巧"><a href="#Markdown-高级技巧" class="headerlink" title="Markdown 高级技巧"></a>Markdown 高级技巧</h1><h3 id="支持的-HTML-元素"><a href="#支持的-HTML-元素" class="headerlink" title="支持的 HTML 元素"></a>支持的 HTML 元素</h3><p>不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。</p>
-<p>目前支持的 HTML 元素有：<code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>等 ，如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 &lt;kbd&gt;Ctrl&lt;/kbd&gt;+&lt;kbd&gt;Alt&lt;/kbd&gt;+&lt;kbd&gt;Del&lt;/kbd&gt; 重启电脑</span><br></pre></td></tr></table></figure>
-
-<p>输出结果为：</p>
-<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014881.jpeg" alt="img"></p>
-<h3 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h3><p>Markdown 使用了很多特殊符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，Markdown 使用反斜杠转义特殊字符：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**文本加粗** </span><br><span class="line">\*\* 正常显示星号 \*\*</span><br></pre></td></tr></table></figure>
-
-<p>输出结果为：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg" alt="img"></p>
-<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line">*   星号</span><br><span class="line">_   下划线</span><br><span class="line">&#123;&#125;  花括号</span><br><span class="line">[]  方括号</span><br><span class="line">()  小括号</span><br><span class="line">#   井字号</span><br><span class="line">+   加号</span><br><span class="line">-   减号</span><br><span class="line">.   英文句点</span><br><span class="line">!   感叹号</span><br></pre></td></tr></table></figure>
-
-<h3 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h3><p><strong>Markdown Preview Enhanced</strong> 使用 <a href="https://github.com/Khan/KaTeX">KaTeX</a> 或者 <a href="https://github.com/mathjax/MathJax">MathJax</a> 来渲染数学表达式。</p>
-<p>KaTeX 拥有比 MathJax 更快的性能，但是它却少了很多 MathJax 拥有的特性。你可以查看 KaTeX supported functions&#x2F;symbols 来了解 KaTeX 支持那些符号和函数。</p>
-<p>默认下的分隔符：</p>
-<ul>
-<li><code>$...$</code> 或者 <code>\(...\)</code> 中的数学表达式将会在行内显示。</li>
-<li><code>$$...$$</code> 或者 <code>\[...\]</code> 或者 &#96;&#96;&#96;&#96;math&#96; 中的数学表达式将会在块内显示。</li>
-</ul>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/0e408954-fda8-11e5-9eb4-562d7c0ca431.gif" alt="img"></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;Bmatrix&#125;</span><br><span class="line">   a &amp; b \\</span><br><span class="line">   c &amp; d</span><br><span class="line">\end&#123;Bmatrix&#125;</span><br><span class="line">$$</span><br><span class="line">$$</span><br><span class="line">\begin&#123;CD&#125;</span><br><span class="line">   A @&gt;a&gt;&gt; B \\</span><br><span class="line">@VbVV @AAcA \\</span><br><span class="line">   C @= D</span><br><span class="line">\end&#123;CD&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
-
-<p>输出结果为：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/A9031CEB-04DB-4822-9C98-2E99489D3662.jpeg" alt="img"></p>
-<p> <a href="https://www.runoob.com/markdown/md-table.html">Markdown 表格</a></p>
-<h2 id="1-篇笔记-写笔记"><a href="#1-篇笔记-写笔记" class="headerlink" title="1 篇笔记 写笔记"></a>1 篇笔记 写笔记</h2><p>1. </p>
-<p>   adc</p>
-<p>   928***<a href="mailto:&#x35;&#50;&#56;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;">&#x35;&#50;&#56;&#64;&#x71;&#113;&#x2e;&#x63;&#111;&#x6d;</a></p>
-<p>   <a href="https://jingyan.baidu.com/article/48b558e3035d9a7f38c09aeb.html"> 参考地址</a></p>
-<p>   959</p>
-<h3 id="typora-画流程图、时序图-顺序图-、甘特图"><a href="#typora-画流程图、时序图-顺序图-、甘特图" class="headerlink" title="typora 画流程图、时序图(顺序图)、甘特图"></a>typora 画流程图、时序图(顺序图)、甘特图</h3><p>   复制以下代码使用 typora 的源码模式粘贴到编辑器中查看效果：</p>
-<p>   <img src="https://www.runoob.com/wp-content/uploads/2019/03/22A9BC11-BA3E-40D8-90B0-DC4FD29F9C02.jpg" alt="img"></p>
-<p>   以下几个实例效果图如下：</p>
-<p>   <strong>1、横向流程图源码格式：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a=1| D[结果1]</span><br><span class="line">    C --&gt;|a=2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>2、竖向流程图源码格式：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">graph TD</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt; |a=1| D[结果1]</span><br><span class="line">    C --&gt; |a=2| E[结果2]</span><br><span class="line">    F[竖向流程图]</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>3、标准流程图源码格式：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>4、标准流程图源码格式（横向）：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```flow</span><br><span class="line">st=&gt;start: 开始框</span><br><span class="line">op=&gt;operation: 处理框</span><br><span class="line">cond=&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1=&gt;subroutine: 子流程</span><br><span class="line">io=&gt;inputoutput: 输入输出框</span><br><span class="line">e=&gt;end: 结束框</span><br><span class="line">st(right)-&gt;op(right)-&gt;cond</span><br><span class="line">cond(yes)-&gt;io(bottom)-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>5、UML时序图源码样例：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```sequence</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>6、UML时序图源码复杂样例：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```sequence</span><br><span class="line">Title: 标题：复杂使用</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象B-&gt;小三: 你好吗</span><br><span class="line">小三--&gt;&gt;对象A: 对象B找我了</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">Note over 小三,对象B: 我们是朋友</span><br><span class="line">participant C</span><br><span class="line">Note right of C: 没人陪我玩</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>7、UML标准时序图样例：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    participant 张三</span><br><span class="line">    participant 李四</span><br><span class="line">    张三-&gt;王五: 王五你好吗？</span><br><span class="line">    loop 健康检查</span><br><span class="line">        王五-&gt;王五: 与疾病战斗</span><br><span class="line">    end</span><br><span class="line">    Note right of 王五: 合理 食物 &lt;br/&gt;看医生...</span><br><span class="line">    李四--&gt;&gt;张三: 很好!</span><br><span class="line">    王五-&gt;李四: 你怎么样?</span><br><span class="line">    李四--&gt;王五: 很好!</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   <strong>8、甘特图样例：</strong></p>
-   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```mermaid</span><br><span class="line">%% 语法示例</span><br><span class="line">        gantt</span><br><span class="line">        dateFormat  YYYY-MM-DD</span><br><span class="line">        title 软件开发甘特图</span><br><span class="line">        section 设计</span><br><span class="line">        需求                      :done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">        原型                      :active,  des2, 2014-01-09, 3d</span><br><span class="line">        UI设计                     :         des3, after des2, 5d</span><br><span class="line">    未来任务                     :         des4, after des3, 5d</span><br><span class="line">        section 开发</span><br><span class="line">        学习准备理解需求                      :crit, done, 2014-01-06,24h</span><br><span class="line">        设计框架                             :crit, done, after des2, 2d</span><br><span class="line">        开发                                 :crit, active, 3d</span><br><span class="line">        未来任务                              :crit, 5d</span><br><span class="line">        耍                                   :2d</span><br><span class="line">        section 测试</span><br><span class="line">        功能测试                              :active, a1, after des3, 3d</span><br><span class="line">        压力测试                               :after a1  , 20h</span><br><span class="line">        测试报告                               : 48h</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
-
-<p>   效果图如下：</p>
-<p>   <img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202202270014995.png" alt="img"></p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071951847.png" alt="image-20220307195145723"></p>
+<p>采取深度优先搜索的时候，就是最开始就一条道走到黑，如图就是最左侧那套路线</p>
+<p><strong>当碰壁之后，就会进行溯回</strong></p>
+<p>注意，每次溯回都会执行当前栈中的程序</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071945540.png" alt="image-20220307194531489"></p>
+<p>也就是第一个dfs(u+1)执行完毕后溯回到这一层，就会执行下面的dfs(u+1)</p>
+<p>也就是路线4，回到上一层后就会继续执行路线5，然后回溯，走6，接着回溯，走7，依次类推</p>
 ]]></content>
       <tags>
-        <tag>Markdown</tag>
+        <tag>递归</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/02/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <title>递归与递推——递归实现排列型枚举</title>
+    <url>/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%88%97%E5%9E%8B%E6%9E%9A%E4%B8%BE/</url>
+    <content><![CDATA[<blockquote>
+<p>排列型枚举：将多个数进行全排列</p>
+</blockquote>
+<p>把1∼n 这 n 个整数排成一行后随机打乱顺序，输出所有可能的次序。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>一个整数 n。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>按照从小到大的顺序输出所有方案，每行 11 个。</p>
+<p>首先，同一行相邻两个数用一个空格隔开。</p>
+<p>其次，对于两个不同的行，对应下标的数一一比较，字典序较小的排在前面。</p>
+<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1≤n≤9,1≤n≤9</p>
+<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">3</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span> <span class="number">2</span> <span class="number">3</span></span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">2</span></span><br><span class="line"><span class="number">2</span> <span class="number">1</span> <span class="number">3</span></span><br><span class="line"><span class="number">2</span> <span class="number">3</span> <span class="number">1</span></span><br><span class="line"><span class="number">3</span> <span class="number">1</span> <span class="number">2</span></span><br><span class="line"><span class="number">3</span> <span class="number">2</span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>代码：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n;<span class="comment">//输入</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">10</span>;</span><br><span class="line"><span class="type">bool</span> used[N];<span class="comment">//记录1，2，3...这些数有没有被使用</span></span><br><span class="line"><span class="type">int</span> s[N];<span class="comment">//记录方案</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> u)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(u&gt;n)<span class="comment">//出口，直接将方案输出</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;s[i]&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(!used[i])<span class="comment">//这个数没有被选的话</span></span><br><span class="line">        &#123;</span><br><span class="line">            s[u]=i;<span class="comment">//将这个数记录在方案中去</span></span><br><span class="line">            used[i]=<span class="literal">true</span>;<span class="comment">//标记i这个数被选了</span></span><br><span class="line">            <span class="built_in">dfs</span>(u+<span class="number">1</span>);<span class="comment">//进行第二位数字的选择</span></span><br><span class="line">            used[i]=<span class="literal">false</span>;<span class="comment">//恢复！！！</span></span><br><span class="line">            s[u]=<span class="number">0</span>;<span class="comment">//恢复</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203072029452.png" alt="image-20220307202955291"></p>
+<p>所谓的恢复，就是将当前位置复原成没有动过的样子</p>
+<p>深度优先，因此还是从最左侧开始进行搜索</p>
 ]]></content>
+      <tags>
+        <tag>递归</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>递归与递推——递归实现组合型枚举</title>
+    <url>/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E7%BB%84%E5%90%88%E5%9E%8B%E6%9E%9A%E4%B8%BE/</url>
+    <content><![CDATA[<p>从1∼n 这 n 个整数中随机选出 m 个，输出所有可能的选择方案。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>两个整数 n,m ,在同一行用空格隔开。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>按照从小到大的顺序输出所有方案，每行 11 个。</p>
+<p>首先，同一行内的数升序排列，相邻两个数用一个空格隔开。</p>
+<p>其次，对于两个不同的行，对应下标的数一一比较，字典序较小的排在前面（例如 <code>1 3 5 7</code> 排在 <code>1 3 6 8</code> 前面）。</p>
+<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>n&gt;0,n&gt;0 ,<br>0≤m≤n,0≤m≤n ,<br>n+(n−m)≤25,n+(n−m)≤25</p>
+<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">5 3</span><br></pre></td></tr></table></figure>
+
+<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1 2 3 </span><br><span class="line">1 2 4 </span><br><span class="line">1 2 5 </span><br><span class="line">1 3 4 </span><br><span class="line">1 3 5 </span><br><span class="line">1 4 5 </span><br><span class="line">2 3 4 </span><br><span class="line">2 3 5 </span><br><span class="line">2 4 5 </span><br><span class="line">3 4 5 </span><br></pre></td></tr></table></figure>
+
+<p>代码：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n,m;<span class="comment">//n个数，选m个</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">30</span>;</span><br><span class="line"><span class="type">int</span> way[N];<span class="comment">//存方案</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> u,<span class="type">int</span> start)</span><span class="comment">//u表示选的m个数里面的第u个，start表示开始从数字几开始选</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(m-u+start&gt;n) <span class="keyword">return</span> ;<span class="comment">//如果后面没有足够的数进行挑选就先返回</span></span><br><span class="line">    <span class="keyword">if</span>(u&gt;m)<span class="comment">//出口，进行方案输出</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;way[i]&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=start;i&lt;=n;i++)<span class="comment">//可以选择的数的范围：(start~~n)</span></span><br><span class="line">    &#123;</span><br><span class="line">        way[u]=i;<span class="comment">//当前这个位置选i</span></span><br><span class="line">        <span class="built_in">dfs</span>(u+<span class="number">1</span>,i+<span class="number">1</span>);<span class="comment">//开始进行下个位置的选择</span></span><br><span class="line"></span><br><span class="line">        way[u]=<span class="number">0</span>;<span class="comment">//恢复到当前位置，再次进行循环，下个位置可选数字范围更新</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>,<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203072100189.png" alt="image-20220307210055985"></p>
+<p>用递归进行深度优先搜索的时候要注意回溯的顺序</p>
+<p>注意<strong>恢复出厂设置</strong></p>
+]]></content>
+      <tags>
+        <tag>递归</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络学习01</title>
+    <url>/2022/02/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A001/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

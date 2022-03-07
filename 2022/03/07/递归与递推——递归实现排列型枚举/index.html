@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="站主," />
+  <meta name="keywords" content="递归," />
 
 
 
@@ -79,18 +79,20 @@
 
 
 
-<meta name="description" content="主页当中的文件目录树存在问题，还未解决——中文目录索引无法正常跳转，英文目录索引正常跳转">
+<meta name="description" content="排列型枚举：将多个数进行全排列  把1∼n 这 n 个整数排成一行后随机打乱顺序，输出所有可能的次序。 输入格式一个整数 n。 输出格式按照从小到大的顺序输出所有方案，每行 11 个。 首先，同一行相邻两个数用一个空格隔开。 其次，对于两个不同的行，对应下标的数一一比较，字典序较小的排在前面。 数据范围1≤n≤9,1≤n≤9 输入样例：13  输出样例：1234561 2 31 3 22 1 3">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Attention!">
-<meta property="og:url" content="http://example.com/2022/02/27/Attention/index.html">
+<meta property="og:title" content="递归与递推——递归实现排列型枚举">
+<meta property="og:url" content="http://example.com/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%88%97%E5%9E%8B%E6%9E%9A%E4%B8%BE/index.html">
 <meta property="og:site_name" content="TuTu&#39;s Blog">
-<meta property="og:description" content="主页当中的文件目录树存在问题，还未解决——中文目录索引无法正常跳转，英文目录索引正常跳转">
+<meta property="og:description" content="排列型枚举：将多个数进行全排列  把1∼n 这 n 个整数排成一行后随机打乱顺序，输出所有可能的次序。 输入格式一个整数 n。 输出格式按照从小到大的顺序输出所有方案，每行 11 个。 首先，同一行相邻两个数用一个空格隔开。 其次，对于两个不同的行，对应下标的数一一比较，字典序较小的排在前面。 数据范围1≤n≤9,1≤n≤9 输入样例：13  输出样例：1234561 2 31 3 22 1 3">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-02-26T16:27:10.000Z">
-<meta property="article:modified_time" content="2022-02-27T12:16:41.050Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203072029452.png">
+<meta property="article:published_time" content="2022-03-07T12:12:11.000Z">
+<meta property="article:modified_time" content="2022-03-07T12:35:18.686Z">
 <meta property="article:author" content="Kevin">
-<meta property="article:tag" content="站主">
+<meta property="article:tag" content="递归">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203072029452.png">
 
 
 
@@ -120,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/2022/02/27/Attention/"/>
+  <link rel="canonical" href="http://example.com/2022/03/07/递归与递推——递归实现排列型枚举/"/>
 
 
 
 
 
-  <title>Attention! | TuTu's Blog</title>
+  <title>递归与递推——递归实现排列型枚举 | TuTu's Blog</title>
   
 
 
@@ -308,7 +310,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/02/27/Attention/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8E%92%E5%88%97%E5%9E%8B%E6%9E%9A%E4%B8%BE/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -325,7 +327,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Attention!</h1>
+          <h1 class="post-title" itemprop="name headline">递归与递推——递归实现排列型枚举</h1>
         
 
         <div class="post-meta">
@@ -337,8 +339,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-02-27T00:27:10+08:00">
-                2022-02-27
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-03-07T20:12:11+08:00">
+                2022-03-07
               </time>
             
 
@@ -369,7 +371,7 @@
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  40
+                  373
                 </span>
               
 
@@ -406,7 +408,27 @@
       
 
       
-        <p><strong>主页当中的文件目录树存在问题，还未解决——中文目录索引无法正常跳转，英文目录索引正常跳转</strong></p>
+        <blockquote>
+<p>排列型枚举：将多个数进行全排列</p>
+</blockquote>
+<p>把1∼n 这 n 个整数排成一行后随机打乱顺序，输出所有可能的次序。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>一个整数 n。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>按照从小到大的顺序输出所有方案，每行 11 个。</p>
+<p>首先，同一行相邻两个数用一个空格隔开。</p>
+<p>其次，对于两个不同的行，对应下标的数一一比较，字典序较小的排在前面。</p>
+<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1≤n≤9,1≤n≤9</p>
+<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">3</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span> <span class="number">2</span> <span class="number">3</span></span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">2</span></span><br><span class="line"><span class="number">2</span> <span class="number">1</span> <span class="number">3</span></span><br><span class="line"><span class="number">2</span> <span class="number">3</span> <span class="number">1</span></span><br><span class="line"><span class="number">3</span> <span class="number">1</span> <span class="number">2</span></span><br><span class="line"><span class="number">3</span> <span class="number">2</span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+
+
+<p>代码：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n;<span class="comment">//输入</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">10</span>;</span><br><span class="line"><span class="type">bool</span> used[N];<span class="comment">//记录1，2，3...这些数有没有被使用</span></span><br><span class="line"><span class="type">int</span> s[N];<span class="comment">//记录方案</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> u)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(u&gt;n)<span class="comment">//出口，直接将方案输出</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;s[i]&lt;&lt;<span class="string">&#x27; &#x27;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(!used[i])<span class="comment">//这个数没有被选的话</span></span><br><span class="line">        &#123;</span><br><span class="line">            s[u]=i;<span class="comment">//将这个数记录在方案中去</span></span><br><span class="line">            used[i]=<span class="literal">true</span>;<span class="comment">//标记i这个数被选了</span></span><br><span class="line">            <span class="built_in">dfs</span>(u+<span class="number">1</span>);<span class="comment">//进行第二位数字的选择</span></span><br><span class="line">            used[i]=<span class="literal">false</span>;<span class="comment">//恢复！！！</span></span><br><span class="line">            s[u]=<span class="number">0</span>;<span class="comment">//恢复</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203072029452.png" alt="image-20220307202955291"></p>
+<p>所谓的恢复，就是将当前位置复原成没有动过的样子</p>
+<p>深度优先，因此还是从最左侧开始进行搜索</p>
 
       
     </div>
@@ -424,7 +446,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/%E7%AB%99%E4%B8%BB/" rel="tag"># 站主</a>
+            <a href="/tags/%E9%80%92%E5%BD%92/" rel="tag"># 递归</a>
           
         </div>
       
@@ -452,8 +474,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2022/02/27/Markdown-%E8%AF%AD%E6%B3%95/" rel="next" title="Markdown 语法">
-                <i class="fa fa-chevron-left"></i> Markdown 语法
+              <a href="/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8C%87%E6%95%B0%E5%9E%8B%E6%9E%9A%E4%B8%BE/" rel="next" title="递归与递推——递归实现指数型枚举">
+                <i class="fa fa-chevron-left"></i> 递归与递推——递归实现指数型枚举
               </a>
             
           </div>
@@ -462,8 +484,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2022/02/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A001/" rel="prev" title="计算机网络学习01">
-                计算机网络学习01 <i class="fa fa-chevron-right"></i>
+              <a href="/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E7%BB%84%E5%90%88%E5%9E%8B%E6%9E%9A%E4%B8%BE/" rel="prev" title="递归与递推——递归实现组合型枚举">
+                递归与递推——递归实现组合型枚举 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -516,8 +538,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -578,6 +609,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">输入格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">输出格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E8%8C%83%E5%9B%B4"><span class="nav-number">3.</span> <span class="nav-text">数据范围</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">输入样例：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">输出样例：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
