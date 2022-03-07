@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="递归," />
 
 
 
@@ -79,17 +79,21 @@
 
 
 
-<meta name="description" content="数据结构 站主 Markdown">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://example.com/tags/index.html">
+<meta name="description" content="从 1∼n 这 n 个整数中随机选取任意多个，输出所有可能的选择方案。 输入格式输入一个整数 n。 输出格式每行输出一种方案。 同一行内的数必须升序排列，相邻两个数用恰好 11 个空格隔开。 对于没有选任何数的方案，输出空行。 本题有自定义校验器（SPJ），各行（不同方案）之间的顺序任意。 数据范围1≤n≤15，1≤n≤15 输入样例：13  输出样例：1234567322 311 31 21 2">
+<meta property="og:type" content="article">
+<meta property="og:title" content="递归与递推——递归实现指数型枚举">
+<meta property="og:url" content="http://example.com/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8C%87%E6%95%B0%E5%9E%8B%E6%9E%9A%E4%B8%BE/index.html">
 <meta property="og:site_name" content="TuTu&#39;s Blog">
-<meta property="og:description" content="数据结构 站主 Markdown">
+<meta property="og:description" content="从 1∼n 这 n 个整数中随机选取任意多个，输出所有可能的选择方案。 输入格式输入一个整数 n。 输出格式每行输出一种方案。 同一行内的数必须升序排列，相邻两个数用恰好 11 个空格隔开。 对于没有选任何数的方案，输出空行。 本题有自定义校验器（SPJ），各行（不同方案）之间的顺序任意。 数据范围1≤n≤15，1≤n≤15 输入样例：13  输出样例：1234567322 311 31 21 2">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-02-25T17:15:13.000Z">
-<meta property="article:modified_time" content="2022-02-26T16:34:25.894Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071951847.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071945540.png">
+<meta property="article:published_time" content="2022-03-07T11:11:40.000Z">
+<meta property="article:modified_time" content="2022-03-07T11:56:18.816Z">
 <meta property="article:author" content="Kevin">
+<meta property="article:tag" content="递归">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071951847.png">
 
 
 
@@ -119,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/tags/"/>
+  <link rel="canonical" href="http://example.com/2022/03/07/递归与递推——递归实现指数型枚举/"/>
 
 
 
 
 
-  <title>tags | TuTu's Blog</title>
+  <title>递归与递推——递归实现指数型枚举 | TuTu's Blog</title>
   
 
 
@@ -295,38 +299,214 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/07/%E9%80%92%E5%BD%92%E4%B8%8E%E9%80%92%E6%8E%A8%E2%80%94%E2%80%94%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E6%8C%87%E6%95%B0%E5%9E%8B%E6%9E%9A%E4%B8%BE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TuTu's Blog">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <ul>
-<li>数据结构</li>
-<li>站主</li>
-<li>Markdown</li>
-</ul>
-
+          <h1 class="post-title" itemprop="name headline">递归与递推——递归实现指数型枚举</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2022-03-07T19:11:40+08:00">
+                2022-03-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  473
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>从 1∼n 这 n 个整数中随机选取任意多个，输出所有可能的选择方案。</p>
+<h4 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h4><p>输入一个整数 n。</p>
+<h4 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h4><p>每行输出一种方案。</p>
+<p>同一行内的数必须升序排列，相邻两个数用恰好 11 个空格隔开。</p>
+<p>对于没有选任何数的方案，输出空行。</p>
+<p>本题有自定义校验器（SPJ），各行（不同方案）之间的顺序任意。</p>
+<h4 id="数据范围"><a href="#数据范围" class="headerlink" title="数据范围"></a>数据范围</h4><p>1≤n≤15，1≤n≤15</p>
+<h4 id="输入样例："><a href="#输入样例：" class="headerlink" title="输入样例："></a>输入样例：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+
+<h4 id="输出样例："><a href="#输出样例：" class="headerlink" title="输出样例："></a>输出样例：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">2</span><br><span class="line">2 3</span><br><span class="line">1</span><br><span class="line">1 3</span><br><span class="line">1 2</span><br><span class="line">1 2 3</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<p>代码实现：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n;<span class="comment">//输入</span></span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N=<span class="number">16</span>;<span class="comment">//全局变量</span></span><br><span class="line"><span class="type">int</span> s[N];<span class="comment">//用来记录这个位置选不选这个数，0表示未选，1表示选了，2表示不选</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> u)</span><span class="comment">//深度优先搜索</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(u&gt;n)<span class="comment">//出口，当u已经大于n的时候，说明n个位置的数已经被填满了</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(s[i]==<span class="number">1</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">   </span><br><span class="line">    s[u]=<span class="number">1</span>;<span class="comment">//说明这个位置选</span></span><br><span class="line">    <span class="built_in">dfs</span>(u+<span class="number">1</span>);</span><br><span class="line">   <span class="comment">//这中间其实应该有一个复原操作，但是立马又被赋值了，就省略掉</span></span><br><span class="line">    s[u]=<span class="number">2</span>;<span class="comment">//这个位置的数不选</span></span><br><span class="line">    <span class="built_in">dfs</span>(u+<span class="number">1</span>);</span><br><span class="line">    s[u]=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">1</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071951847.png" alt="image-20220307195145723"></p>
+<p>采取深度优先搜索的时候，就是最开始就一条道走到黑，如图就是最左侧那套路线</p>
+<p><strong>当碰壁之后，就会进行溯回</strong></p>
+<p>注意，每次溯回都会执行当前栈中的程序</p>
+<p><img src="https://raw.githubusercontent.com/danjuan-77/picgo/main/picgoimage/202203071945540.png" alt="image-20220307194531489"></p>
+<p>也就是第一个dfs(u+1)执行完毕后溯回到这一层，就会执行下面的dfs(u+1)</p>
+<p>也就是路线4，回到上一层后就会继续执行路线5，然后回溯，走6，接着回溯，走7，依次类推</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%80%92%E5%BD%92/" rel="tag"># 递归</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </span>
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2022/02/27/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%AD%A6%E4%B9%A001/" rel="next" title="计算机网络学习01">
+                <i class="fa fa-chevron-left"></i> 计算机网络学习01
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -359,8 +539,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -421,6 +610,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">输入格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F"><span class="nav-number">2.</span> <span class="nav-text">输出格式</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E8%8C%83%E5%9B%B4"><span class="nav-number">3.</span> <span class="nav-text">数据范围</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%85%A5%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">4.</span> <span class="nav-text">输入样例：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B%EF%BC%9A"><span class="nav-number">5.</span> <span class="nav-text">输出样例：</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
