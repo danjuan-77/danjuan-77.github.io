@@ -36,7 +36,7 @@ Yipeng Kang, Junqi Wang, Yexin Li, Fangwei Zhong, Xue Feng, Mengmeng Wang, **Wen
 
 
 - [V-LoRA: An Efficient and Flexible System Boosts Vision Applications with LoRA LMM](https://arxiv.org/abs/2411.00915). &nbsp; EuroSys 2025. (<font color=red>CCF-A</font>).<br>
-Liang Mi*, Weijun Wang*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.
+Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_EuroSys_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2411.00915)
 
 
