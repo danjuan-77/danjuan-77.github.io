@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I’m Wenming Tu (涂文明). I am currently an undergraduate student at China University of Mining and Technology-Beijing, majoring Computer Science and Technology. In September 2025, I will be joining Shanghai Jiao Tong University (SJTU) to pursue a PhD in Computer Science and Technology. I will be jointly supervised by Prof. [Xie Chen](https://chenxie95.github.io/) from the [X-Lance Lab](https://x-lance.sjtu.edu.cn/) and Dr. [Zilong Zheng](https://zilongzheng.github.io/) from the [Beijing Institute for General Artificial Intelligence(BIGAI)](https://www.bigai.ai/), NLCo Group. I am excited to contribute to the field of AI and continue my research on these cutting-edge technologies.
+Hi, I’m Wenming Tu (涂文明). I am currently an undergraduate student at China University of Mining and Technology-Beijing, majoring in Computer Science and Technology. In September 2025, I will be joining Shanghai Jiao Tong University (SJTU) to pursue a Ph.D in Computer Science and Technology. I will be jointly supervised by Prof. [Xie Chen](https://chenxie95.github.io/) from the [X-Lance Lab](https://x-lance.sjtu.edu.cn/) and Dr. [Zilong Zheng](https://zilongzheng.github.io/) from the [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), NLCo Group. I am excited to contribute to the field of AI and continue my research on these cutting-edge technologies.
 
 My research interests are primarily focused on **understanding and generation in speech and audio**, as well as **multimodal large language models**. I aim to explore how these technologies can enhance human-computer interaction, improve speech synthesis and recognition systems, and advance the capabilities of AI in multimodal environments.
 
@@ -52,5 +52,5 @@ Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Y
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2024.10 - Now*, [Beijing Institute for General Artificial Intelligence(BIGAI)](https://www.bigai.ai/), NLCo Group, Beijing, China. Supervised by Dr. [Zilong Zheng](https://zilongzheng.github.io/)
-- *2023.12 - 2024.09*, [Institute for AI Industry Research(AIR), Tsinghua University](https://air.tsinghua.edu.cn/index.htm), AIoT Group, Bejing, China. Co-advised by Dr. [Weijun Wang](https://weijunalexwang.github.io/index.html) and Prof. [Yuanchun Li](https://yuanchun-li.github.io/).
+- *2024.10 - Now*, [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), NLCo Group, Beijing, China. Supervised by Dr. [Zilong Zheng](https://zilongzheng.github.io/)
+- *2023.12 - 2024.09*, [Institute for AI Industry Research (AIR), Tsinghua University](https://air.tsinghua.edu.cn/index.htm), AIoT Group, Beijing, China. Co-advised by Dr. [Weijun Wang](https://weijunalexwang.github.io/index.html) and Prof. [Yuanchun Li](https://yuanchun-li.github.io/).
