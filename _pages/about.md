@@ -32,7 +32,7 @@ My research interests are primarily focused on **speech and audio processing**, 
 
 ## 2025
 - [Causal Graph Guided Steering of LLM Values via Prompts and Sparse Autoencoders](https://arxiv.org/abs/2501.00581). &nbsp; Preprint 2025.<br>
-Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#
+Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
 
 
 - [V-LoRA: An Efficient and Flexible System Boosts Vision Applications with LoRA LMM](https://arxiv.org/abs/2411.00915). &nbsp; EuroSys 2025. (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
