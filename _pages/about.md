@@ -24,6 +24,7 @@ My research interests are primarily focused on **speech and audio processing**, 
 **Think bold! Work hard!**
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 1 paper is accepted by ACL 2025!
 - *2025.01*: &nbsp;🎉🎉 1 paper is accepted by EuroSys 2025!
 
 
@@ -31,9 +32,9 @@ My research interests are primarily focused on **speech and audio processing**, 
 > (*represents co-first authors, #represents corresponding authors)
 
 ## 2025
-- [Causal Graph Guided Steering of LLM Values via Prompts and Sparse Autoencoders](https://arxiv.org/abs/2501.00581). &nbsp; Preprint 2025.<br>
+- [Causal Graph Guided Steering of LLM Values via Prompts and Sparse Autoencoders](https://arxiv.org/abs/2501.00581). &nbsp; ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
-
+<br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_ACL_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2501.00581)
 
 - [V-LoRA: An Efficient and Flexible System Boosts Vision Applications with LoRA LMM](https://arxiv.org/abs/2411.00915). &nbsp; EuroSys 2025. (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
 Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.
