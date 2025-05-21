@@ -42,7 +42,7 @@ Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Y
 
 
 # 🎖 Honors and Awards
-- *2024.03* Beijing Merit Student (北京市三好学生)
+- *2024.03* Beijing Merit Student.
 
 # 📖 Educations
 - *2021.09 - Present*: Computer science and technology. [School of Artificial Intelligence, China University of Mining and Technology-Beijing(CUMTB)](https://ai.cumtb.edu.cn/)
