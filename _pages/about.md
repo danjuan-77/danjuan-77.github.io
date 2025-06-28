@@ -42,9 +42,9 @@ Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Y
 
 
 # 🎖 Honors and Awards
-- *2025.06* Outstanding Graduates of CUMTB.
-- *2024.03* Beijing Merit Student.
-- *2023.10* Xiaomi Scholarship.
+- *2025.06* Outstanding Graduates of CUMTB. 🎓
+- *2024.03* Merit Student Award of Beijing. 🏅
+- *2023.10* Xiaomi Scholarship. 🎖
 
 # 📖 Educations
 - *2025.09 - 2030.06(expected)*: Computer science and technology. [School of Computer Science , Shanghai Jiao Tong University(SJTU)](https://www.cs.sjtu.edu.cn/)
