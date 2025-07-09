@@ -17,15 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Wenming Tu (涂文明). Starting from September 2025, I will be pursuing a Ph.D in Computer Science and Technology at Shanghai Jiao Tong University (SJTU). I will be jointly supervised by Prof. [Xie Chen](https://chenxie95.github.io/) from the [X-Lance Lab](https://x-lance.sjtu.edu.cn/) and Dr. [Zilong Zheng](https://zilongzheng.github.io/) from the [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), NLCo Group. I am passionate about pushing the boundaries of AI research and developing innovative solutions in this rapidly evolving field.
+Hi, I'm Wenming Tu (涂文明). Starting from September 2025, I will be pursuing a Ph.D in Computer Science and Technology at Shanghai Jiao Tong University (SJTU). I will be jointly supervised by Prof. [Xie Chen](https://chenxie95.github.io/) from the [X-LANCE Lab](https://x-lance.sjtu.edu.cn/) and Dr. [Zilong Zheng](https://zilongzheng.github.io/) from the [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), NLCo Group. I am passionate about pushing the boundaries of AI research and developing innovative solutions in this rapidly evolving field.
 
 My research interests are primarily focused on **speech and audio processing**, as well as **multimodal large language models**. I aim to explore how these technologies can enhance human-computer interaction, improve speech synthesis and recognition systems, and advance the capabilities of AI in multimodal environments.
 
 **Think bold! Work hard!**
 
 # 🔥 News
-- *2025.05*: &nbsp;🎉🎉 1 paper is accepted by ACL 2025!
-- *2025.01*: &nbsp;🎉🎉 1 paper is accepted by EuroSys 2025!
+- *2025.05*: &nbsp;🎉🎉 1 paper was accepted by ACL 2025!
+- *2025.01*: &nbsp;🎉🎉 1 paper was accepted by EuroSys 2025!
 
 
 # 📝 Publications 
