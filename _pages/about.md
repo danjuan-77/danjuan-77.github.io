@@ -32,7 +32,7 @@ My research interests are primarily focused on **speech and audio processing**, 
 > (*represents co-first authors, #represents corresponding authors)
 
 ## 2025
-- [Causal Graph Guided Steering of LLM Values via Prompts and Sparse Autoencoders](https://arxiv.org/abs/2501.00581).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
+- [Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://arxiv.org/abs/2501.00581).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_ACL_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2501.00581)
 
