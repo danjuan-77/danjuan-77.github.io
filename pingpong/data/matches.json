@@ -1,0 +1,55 @@
+{
+  "tournament": {
+    "name": "1st Ziyong Cup 2025",
+    "startDate": "2025-08-20",
+    "endDate": "2025-08-25",
+    "description": "The inaugural Ziyong Cup tournament featuring top ping pong players"
+  },
+  "matches": [
+    {
+      "id": 1,
+      "date": "2025-08-20",
+      "player1": "Kang Yipeng",
+      "player2": "Tu Wenming",
+      "score1": 2,
+      "score2": 1,
+      "round": "Regular"
+    },
+    {
+      "id": 2,
+      "date": "2025-08-21",
+      "player1": "Kang Yipeng",
+      "player2": "Tu Wenming",
+      "score1": 2,
+      "score2": 1,
+      "round": "Regular"
+    },
+    {
+      "id": 3,
+      "date": "2025-08-22",
+      "player1": "Kang Yipeng",
+      "player2": "Tu Wenming",
+      "score1": 0,
+      "score2": 1,
+      "round": "Regular"
+    },
+    {
+      "id": 4,
+      "date": "2025-08-25",
+      "player1": "Kang Yipeng",
+      "player2": "Zhang Zhaowei",
+      "score1": 0,
+      "score2": 3,
+      "round": "Regular"
+    },
+    {
+      "id": 5,
+      "date": "2025-08-26",
+      "player1": "Tu Wenming",
+      "player2": "Zhang Zhaowei",
+      "score1": 2,
+      "score2": 1,
+      "round": "Regular"
+    }
+  ]
+}

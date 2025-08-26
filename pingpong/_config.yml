@@ -1,0 +1,48 @@
+# GitHub Pages 配置文件
+title: "🏓 1st Ziyong Cup 2025 LeaderBoard"
+description: "ELO-based ping pong tournament leaderboard"
+url: "https://danjuan-77.github.io"
+baseurl: "/pingpong"
+
+# GitHub Pages 设置
+github:
+  repository_name: "pingpong"
+
+# 插件
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# 排除文件
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .DS_Store
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# 其他设置
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# SEO
+lang: zh-CN
+author: "PingPong Leaderboard Team"
+twitter:
+  username: 
+facebook:
+  app_id: 
+  publisher: 
+webmaster_verifications:
+  google: 
+  bing: 
+  alexa: 
+  yandex: 
+  baidu:
