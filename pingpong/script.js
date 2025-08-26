@@ -40,6 +40,15 @@ class PingPongLeaderboard {
         document.getElementById('clear-filters').addEventListener('click', () => {
             this.clearFilters();
         });
+
+        // Pairing suggestions
+        const suggestBtn = document.getElementById('suggest-pairings');
+        if (suggestBtn) {
+            suggestBtn.addEventListener('click', () => {
+                const pairings = this.suggestFairPairings();
+                this.renderPairingSuggestions(pairings);
+            });
+        }
     }
 
     // Load match data from JSON file
@@ -69,6 +78,91 @@ class PingPongLeaderboard {
             // Fallback to demo data if JSON file not found
             this.loadFallbackData();
         }
+    }
+
+    // Suggest fair random pairings based on current ELO, avoid very recent repeat
+    suggestFairPairings() {
+        if (!this.players || this.players.length < 2) return [];
+
+        // Build recent opponents map from last N matches
+        const recentWindow = 5;
+        const recentOpponents = new Map();
+        const recent = [...this.matches]
+            .sort((a, b) => new Date(b.date) - new Date(a.date))
+            .slice(0, Math.max(0, recentWindow));
+        recent.forEach(m => {
+            [m.player1, m.player2].forEach(name => {
+                const key = name.toLowerCase();
+                if (!recentOpponents.has(key)) recentOpponents.set(key, new Set());
+            });
+            recentOpponents.get(m.player1.toLowerCase()).add(m.player2.toLowerCase());
+            recentOpponents.get(m.player2.toLowerCase()).add(m.player1.toLowerCase());
+        });
+
+        // Sort by ELO and then create buckets to balance
+        const pool = [...this.players].sort((a, b) => b.elo - a.elo);
+        const unpaired = new Set(pool.map(p => p.name.toLowerCase()));
+        const nameToPlayer = new Map(pool.map(p => [p.name.toLowerCase(), p]));
+
+        const pairings = [];
+        while (unpaired.size >= 2) {
+            // Pick a random seed from top half to bias fairness
+            const candidates = [...unpaired].map(n => nameToPlayer.get(n));
+            const half = Math.ceil(candidates.length / 2);
+            const seed = candidates[Math.floor(Math.random() * half)];
+            unpaired.delete(seed.name.toLowerCase());
+
+            // Find opponent minimizing ELO gap and avoiding recent opponents if possible
+            let best = null;
+            let bestScore = Number.POSITIVE_INFINITY;
+            const avoidSet = recentOpponents.get(seed.name.toLowerCase()) || new Set();
+            const remaining = [...unpaired].map(n => nameToPlayer.get(n));
+
+            // First pass: avoid recent opponents
+            remaining.forEach(op => {
+                if (avoidSet.has(op.name.toLowerCase())) return;
+                const gap = Math.abs(seed.elo - op.elo);
+                if (gap < bestScore) { bestScore = gap; best = op; }
+            });
+
+            // Fallback: allow recent opponent if no alternative
+            if (!best && remaining.length > 0) {
+                remaining.forEach(op => {
+                    const gap = Math.abs(seed.elo - op.elo);
+                    if (gap < bestScore) { bestScore = gap; best = op; }
+                });
+            }
+
+            if (best) {
+                unpaired.delete(best.name.toLowerCase());
+                pairings.push({
+                    player1: seed.name,
+                    player2: best.name,
+                    elo1: Math.round(seed.elo),
+                    elo2: Math.round(best.elo),
+                    gap: Math.round(Math.abs(seed.elo - best.elo))
+                });
+            } else {
+                // No opponent found (odd count), break
+                break;
+            }
+        }
+
+        return pairings;
+    }
+
+    renderPairingSuggestions(pairings) {
+        const container = document.getElementById('pairing-suggestions');
+        if (!container) return;
+        if (!pairings || pairings.length === 0) {
+            container.innerHTML = '<div class="pairing-item">No pairing suggestions available.</div>';
+            return;
+        }
+        const html = [
+            '<div class="suggestion-title">Suggested Pairings (balanced by ELO)</div>',
+            ...pairings.map(p => `<div class="pairing-item">${p.player1} (${p.elo1}) vs ${p.player2} (${p.elo2}) — gap ${p.gap}</div>`) 
+        ].join('');
+        container.innerHTML = html;
     }
 
     // Fallback data if JSON file is not accessible
@@ -139,20 +233,40 @@ class PingPongLeaderboard {
         document.getElementById(tabName).classList.add('active');
     }
 
-    // ELO rating calculation for set-based matches
-    calculateEloChange(ratingA, ratingB, setsWonA, setsWonB, kFactor = 32) {
-        // Calculate expected win probability for each player
+    // ELO rating calculation (match-level with MOV and dynamic K)
+    // Based on Elo with margin-of-victory scaling commonly used in sports ratings
+    // Inputs: current ratings, set scores, and matches played for K scheduling
+    calculateEloChange(ratingA, ratingB, setsWonA, setsWonB, matchesPlayedA, matchesPlayedB) {
         const expectedA = 1 / (1 + Math.pow(10, (ratingB - ratingA) / 400));
-        const expectedB = 1 / (1 + Math.pow(10, (ratingA - ratingB) / 400));
+        const expectedB = 1 - expectedA;
 
-        // Calculate actual performance based on sets won
-        const totalSets = setsWonA + setsWonB;
-        const actualA = setsWonA / totalSets;
-        const actualB = setsWonB / totalSets;
+        // Actual result at match level (win/draw/loss)
+        let actualA = 0.5;
+        if (setsWonA > setsWonB) actualA = 1;
+        else if (setsWonA < setsWonB) actualA = 0;
+        const actualB = 1 - actualA;
 
-        // Calculate ELO changes
-        const changeA = Math.round(kFactor * (actualA - expectedA));
-        const changeB = Math.round(kFactor * (actualB - expectedB));
+        // Margin of victory multiplier
+        const margin = Math.max(0, Math.abs(setsWonA - setsWonB));
+        const ratingDiff = Math.abs(ratingA - ratingB);
+        const movMultiplier = Math.log(margin + 1) * (2.2 / ((ratingDiff * 0.001) + 2.2)) || 0; // 0 if margin=0
+
+        // Dynamic K: higher for fewer matches, lower as sample grows
+        const baseK = (matches) => {
+            if (matches < 5) return 40;
+            if (matches < 15) return 32;
+            if (matches < 30) return 24;
+            return 16;
+        };
+
+        const kA = baseK(matchesPlayedA);
+        const kB = baseK(matchesPlayedB);
+
+        const scaleA = 1 + movMultiplier;
+        const scaleB = 1 + movMultiplier;
+
+        const changeA = Math.round(kA * scaleA * (actualA - expectedA));
+        const changeB = Math.round(kB * scaleB * (actualB - expectedB));
 
         return { changeA, changeB };
     }
@@ -216,7 +330,9 @@ class PingPongLeaderboard {
                 player1Stats.elo,
                 player2Stats.elo,
                 match.score1,
-                match.score2
+                match.score2,
+                player1Stats.matchesPlayed,
+                player2Stats.matchesPlayed
             );
 
             // Store ELO changes in match data
@@ -227,8 +343,9 @@ class PingPongLeaderboard {
 
 
 
-            player1Stats.elo += changeA;
-            player2Stats.elo += changeB;
+            // Apply and bound ratings
+            player1Stats.elo = Math.max(100, Math.min(3000, player1Stats.elo + changeA));
+            player2Stats.elo = Math.max(100, Math.min(3000, player2Stats.elo + changeB));
 
             match.player1EloAfter = player1Stats.elo;
             match.player2EloAfter = player2Stats.elo;
@@ -385,9 +502,8 @@ class PingPongLeaderboard {
         // Add data source indicator
         const header = document.querySelector('.tournament-info p');
         if (header) {
-            const dataSource = this.tournament ? 'JSON data' : 'Fallback data';
             const originalText = this.tournament ? this.tournament.description : 'Demo data';
-            header.textContent = `${originalText} (Using ${dataSource})`;
+            header.textContent = originalText;
         }
     }
 
