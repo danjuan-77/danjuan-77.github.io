@@ -377,7 +377,9 @@ class PingPongLeaderboard {
 
     // Update statistics
     updateStats() {
-        document.getElementById('total-matches').textContent = this.matches.length;
+        // Sum of per-player match counts (as displayed in the table)
+        const totalPlayerMatches = this.players.reduce((sum, player) => sum + (player.matches || 0), 0);
+        document.getElementById('total-matches').textContent = totalPlayerMatches;
         document.getElementById('total-players').textContent = this.players.length;
         
         // Add data source indicator
