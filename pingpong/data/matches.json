@@ -41,6 +41,15 @@
       "score1": 0,
       "score2": 3,
       "round": "Regular"
+    },
+    {
+      "id": 4,
+      "date": "2025-08-26",
+      "player1": "Kang Yipeng",
+      "player2": "Tu Wenming",
+      "score1": 2,
+      "score2": 0,
+      "round": "Regular"
     }
   ]
 }
