@@ -314,15 +314,17 @@ class PingPongLeaderboard {
             player2Stats.totalScoreFor += match.score2;
             player2Stats.totalScoreAgainst += match.score1;
 
-            // Determine match winner based on sets won
+            // Count individual game/set wins (not match wins)
+            player1Stats.wins += match.score1; // Add individual games won by player1
+            player1Stats.losses += match.score2; // Add individual games lost by player1
+            player2Stats.wins += match.score2; // Add individual games won by player2
+            player2Stats.losses += match.score1; // Add individual games lost by player2
+
+            // Determine match winner based on sets won (for ELO calculation)
             if (match.score1 > match.score2) {
-                player1Stats.wins++;
-                player2Stats.losses++;
-                match.winner = match.player1; // Update winner based on sets
+                match.winner = match.player1;
             } else {
-                player2Stats.wins++;
-                player1Stats.losses++;
-                match.winner = match.player2; // Update winner based on sets
+                match.winner = match.player2;
             }
 
             // Calculate and update ELO based on sets won
@@ -352,10 +354,13 @@ class PingPongLeaderboard {
         });
 
         // Convert to array and calculate win rates
-        this.players = Array.from(playerStats.values()).map(player => ({
-            ...player,
-            winRate: player.matchesPlayed > 0 ? (player.wins / player.matchesPlayed * 100) : 0
-        }));
+        this.players = Array.from(playerStats.values()).map(player => {
+            const totalGames = player.wins + player.losses;
+            return {
+                ...player,
+                winRate: totalGames > 0 ? (player.wins / totalGames * 100) : 0
+            };
+        });
     }
 
     // Update all views

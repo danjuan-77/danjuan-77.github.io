@@ -43,11 +43,38 @@
       "round": "Regular"
     },
     {
-      "id": 4,
+      "id": 5,
       "date": "2025-08-26",
       "player1": "Kang Yipeng",
       "player2": "Tu Wenming",
       "score1": 2,
+      "score2": 0,
+      "round": "Regular"
+    },
+    {
+      "id": 6,
+      "date": "2025-08-28",
+      "player1": "Kang Yipeng",
+      "player2": "Tu Wenming",
+      "score1": 1,
+      "score2": 0,
+      "round": "Regular"
+    },
+    {
+      "id": 7,
+      "date": "2025-08-28",
+      "player1": "Kang Yipeng",
+      "player2": "Zhang Zhaowei",
+      "score1": 0,
+      "score2": 1,
+      "round": "Regular"
+    },
+    {
+      "id": 8,
+      "date": "2025-08-28",
+      "player1": "Zhang Zhaowei",
+      "player2": "Tu Wenming",
+      "score1": 1,
       "score2": 0,
       "round": "Regular"
     }
