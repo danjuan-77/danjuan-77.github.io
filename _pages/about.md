@@ -36,7 +36,7 @@ My research interests primarily focus on **speech and audio processing** and **m
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_ACL_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2501.00581)
 
-- [V-LoRA: An Efficient and Flexible System Boosts Vision Applications with LoRA LMM](https://arxiv.org/abs/2411.00915).&nbsp;EuroSys 2025 (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
+- [Empower Vision Applications with LoRA LMM](https://arxiv.org/abs/2411.00915).&nbsp;EuroSys 2025 (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
 Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_EuroSys_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2411.00915)
 
