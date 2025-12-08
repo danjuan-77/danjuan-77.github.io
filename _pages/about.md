@@ -32,6 +32,10 @@ My research interests primarily focus on **speech and audio processing** and **m
 > (*represents co-first authors, #represents corresponding authors)
 
 ## 2025
+- [UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).&nbsp;Preprint.<br>
+**Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.
+<br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_arXiv_2025-orange.svg?style=plastic)](https://arxiv.org/abs/2510.22588)
+
 - [Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://arxiv.org/abs/2501.00581).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_ACL_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2501.00581)
