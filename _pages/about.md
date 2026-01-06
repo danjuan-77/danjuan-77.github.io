@@ -24,6 +24,7 @@ My research interests primarily focus on **speech and audio processing** and **m
 **Think bold! Work hard!**
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 1 paper was accepted by NeurIPS 2025!
 - *2025.05*: &nbsp;🎉🎉 1 paper was accepted by ACL 2025!
 - *2025.01*: &nbsp;🎉🎉 1 paper was accepted by EuroSys 2025!
 
@@ -34,7 +35,11 @@ My research interests primarily focus on **speech and audio processing** and **m
 ## 2025
 - [UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).&nbsp;Preprint.<br>
 **Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.
-<br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_arXiv_2025-orange.svg?style=plastic)](https://arxiv.org/abs/2510.22588)
+<br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_arXiv_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2510.22588)
+
+- [Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382).&nbsp;NeurIPS DB Track 2025 (<font color=red>CCF-A</font>).<br>
+Cooperate with the DeepMind Concordia Team.
+<br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_NeurIPS_2025-b31b1b.svg?style=plastic)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382)
 
 - [Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://arxiv.org/abs/2501.00581).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
