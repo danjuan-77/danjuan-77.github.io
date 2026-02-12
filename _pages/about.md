@@ -32,6 +32,11 @@ My research interests primarily focus on **speech and audio processing** and **m
 # 📝 Publications 
 > (*represents co-first authors, #represents corresponding authors)
 
+## 2026 
+- [MOVA: Towards Scalable and Synchronized Video-Audio Generation](https://arxiv.org/abs/2602.08794).&nbsp;Preprint.<br>
+As a **core contributor** cooperate with SII-OpenMOSS Team.
+<br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_arXiv_2026-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2602.08794)
+
 ## 2025
 - [UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).&nbsp;Preprint.<br>
 **Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.
