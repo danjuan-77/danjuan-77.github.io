@@ -24,6 +24,7 @@ My research interests primarily focus on **speech and audio processing** and **m
 **Think bold! Work hard!**
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 We won 🥈 (2nd place) in the Agent Track of the Interspeech 2026 Audio Reasoning Challenge. See the [Leaderboard](https://audio-reasoning-challenge.github.io/leaderboard/); the official report is on [Challenge Report](https://arxiv.org/abs/2602.14224). Our method report is coming soon.
 - *2025.09*: &nbsp;🎉🎉 1 paper was accepted by NeurIPS 2025!
 - *2025.05*: &nbsp;🎉🎉 1 paper was accepted by ACL 2025!
 - *2025.01*: &nbsp;🎉🎉 1 paper was accepted by EuroSys 2025!
