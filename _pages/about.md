@@ -47,11 +47,11 @@ As a **core contributor** cooperate with SII-OpenMOSS Team.
 Cooperate with the DeepMind Concordia Team.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_NeurIPS_2025-b31b1b.svg?style=plastic)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382)
 
-- [Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://arxiv.org/abs/2501.00581).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
+- [Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://aclanthology.org/2025.findings-acl.1188/).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_ACL_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2501.00581)
 
-- [Empower Vision Applications with LoRA LMM](https://arxiv.org/abs/2411.00915).&nbsp;EuroSys 2025 (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
+- [Empower Vision Applications with LoRA LMM](https://dl.acm.org/doi/10.1145/3689031.3717472).&nbsp;EuroSys 2025 (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
 Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_EuroSys_2025-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2411.00915)
 
