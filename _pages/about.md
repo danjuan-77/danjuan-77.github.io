@@ -26,7 +26,7 @@ My research interests primarily focus on **speech and audio processing** and **m
 # 🔥 News
 - *2026.06*: &nbsp;🎉🎉 2 papers were accepted by INTERSPEECH 2026!
 - *2026.05*: &nbsp;🎉🎉 1 paper was accepted by ICML 2026!
-- *2026.02*: &nbsp;🎉🎉 We won 🥈 (2nd place) in the Agent Track of the Interspeech 2026 Audio Reasoning Challenge. See the [Leaderboard](https://audio-reasoning-challenge.github.io/leaderboard/); the official report is on [Challenge Report](https://arxiv.org/abs/2602.14224). Our method report is coming soon.
+- *2026.02*: &nbsp;🎉🎉 We won 🥈 (2nd place) in the Agent Track of the Interspeech 2026 Audio Reasoning Challenge. See the [Leaderboard](https://audio-reasoning-challenge.github.io/leaderboard/); the official report is on [Challenge Report](https://arxiv.org/abs/2602.14224).
 - *2025.09*: &nbsp;🎉🎉 1 paper was accepted by NeurIPS 2025!
 - *2025.05*: &nbsp;🎉🎉 1 paper was accepted by ACL 2025!
 - *2025.01*: &nbsp;🎉🎉 1 paper was accepted by EuroSys 2025!
@@ -39,7 +39,7 @@ My research interests primarily focus on **speech and audio processing** and **m
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/publications/2026-mmae.png' alt="MMAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [MMAE: A Massive Multitask Audio Editing Benchmark](https://arxiv.org/abs/2606.07229).&nbsp;Preprint.<br>
-Ziyang Ma, Ruiqi Yan, Ruiyang Xu, Jie Fang, Zhikang Niu, Yi-Wen Chao, **Wenming Tu**, et al. (As a **Core Contributor**)
+Ziyang Ma, Ruiqi Yan, Ruiyang Xu, Jie Fang, Zhikang Niu, Yi-Wen Chao, **Wenming Tu**, Tianrui Wang, Auden, Qi Chen, Wenxi Chen, Jiaying Chi, Yanru Huo, Zixuan Jiang, Xiquan Li, Yalin Li, Junxi Liu, Minghao Liu, Binghao Qiang, Yijia Shan, Zheshu Song, Tian Tan, Zixiang Wang, Zeyu Xie, Zhifei Xie, Xiaoyu Xing, Qixiang Xu, Chen Yang, Guanrou Yang, Shan Yang, Yifan Yang, Steve Yves, Haotian Zhang, Haina Zhu, Kai Yu, Liefeng Bo, Eng-Siong Chng, Xie Chen. (As a **Core Contributor**)
 <br> [![paper](https://img.shields.io/badge/%F0%9F%93%84_arXiv_2026-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2606.07229)
 </div></div>
 
