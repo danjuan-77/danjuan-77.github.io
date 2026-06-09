@@ -1,0 +1,20 @@
+{
+  // 本项目是 Jekyll 主页，Markdown 中大量依赖裸 HTML（<br>、<font>、<div class='paper-box'> 等）。
+  // 任何 Markdown 格式化都会破坏这些标签（如把 <br> 改成 `<br>`），因此全面关闭。
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": null
+  },
+  // 防止 Prettier 等接管 markdown
+  "prettier.documentSelectors": [],
+  // markdownlint：关闭“禁止裸 HTML(MD033)”和“行长(MD013)”等会触发自动修复的规则
+  "markdownlint.config": {
+    "MD033": false,
+    "MD013": false,
+    "MD041": false
+  },
+  // 保留尾随空格（部分 markdown 换行依赖），避免保存时被裁剪
+  "files.trimTrailingWhitespace": false
+}
