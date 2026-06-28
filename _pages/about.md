@@ -82,7 +82,7 @@ As a **core contributor** cooperate with SII-OpenMOSS Team.<br>
 [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.08794)
 [![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://mosi.cn/models/mova)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/OpenMOSS/MOVA)
-[![hf](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat)](https://huggingface.co/collections/OpenMOSS-Team/mova)
+[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-FFD21E?style=flat)](https://huggingface.co/collections/OpenMOSS-Team/mova)
 <p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> MOVA (MOSS Video and Audio) is an open-source model for jointly generating high-quality, synchronized audio-visual content—lip-synced speech, environment-aware sound effects, and content-aligned music. It uses a 32B-parameter Mixture-of-Experts architecture (18B active) supporting Image-Text→Video-Audio generation, released with full weights, code, LoRA fine-tuning, and inference tooling.</p>
 </div></div>
 
