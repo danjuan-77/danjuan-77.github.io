@@ -91,8 +91,15 @@
 
 }
 
+// 简略论文条目（无大图、无 bullet 圆点，与 paper-box 共用底部分隔线）
+.pub-item {
+    border-bottom: 1px #efefef solid;
+    padding: 1em 0;
+    line-height: 1.5;
+}
+
 $scroll_offset : 2em;
-h1:before, .anchor:before { 
+h1:before, .anchor:before {
     content: ''; 
     display: block; 
     position: relative; 
@@ -115,10 +122,12 @@ h1:before, .anchor:before {
     border-radius: 2px;
     white-space: nowrap;
 
-    &.arxiv       { background-color: #6e7781; }   // Preprint  灰
-    &.interspeech { background-color: #1c6fb3; }   // CCF-B     蓝
-    &.icml        { background-color: #c2410c; }   // CCF-A     橙红
-    &.neurips     { background-color: #6d28d9; }   // CCF-A     紫
-    &.acl         { background-color: #be123c; }   // CCF-A     红
-    &.eurosys     { background-color: #0e7490; }   // CCF-A     青
+    &.arxiv { background-color: #6e7781; }   // Preprint(arXiv) 灰
+
+    // 已发表会议统一用蓝色
+    &.interspeech,
+    &.icml,
+    &.neurips,
+    &.acl,
+    &.eurosys { background-color: #1c6fb3; }
 }
