@@ -131,3 +131,9 @@ h1:before, .anchor:before {
     &.acl,
     &.eurosys { background-color: #1c6fb3; }
 }
+
+// 侧栏头像：长方形（证件照完整显示，轻微圆角），覆盖主题默认的圆形
+.author__avatar img {
+    border-radius: 8px;
+    object-fit: cover;
+}
