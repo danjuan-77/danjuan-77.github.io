@@ -38,42 +38,30 @@ My research interests primarily focus on **speech and audio processing** and **m
 ## 2026 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2026 · Preprint</div><img src='images/publications/2026-mmae.png' alt="MMAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[MMAE: A Massive Multitask Audio Editing Benchmark](https://arxiv.org/abs/2606.07229).&nbsp;Preprint.<br>
-Ziyang Ma, Ruiqi Yan, Ruiyang Xu, Jie Fang, Zhikang Niu, Yi-Wen Chao, **Wenming Tu**, Tianrui Wang, Auden, Qi Chen, Wenxi Chen, Jiaying Chi, Yanru Huo, Zixuan Jiang, Xiquan Li, Yalin Li, Junxi Liu, Minghao Liu, Binghao Qiang, Yijia Shan, Zheshu Song, Tian Tan, Zixiang Wang, Zeyu Xie, Zhifei Xie, Xiaoyu Xing, Qixiang Xu, Chen Yang, Guanrou Yang, Shan Yang, Yifan Yang, Steve Yves, Haotian Zhang, Haina Zhu, Kai Yu, Liefeng Bo, Eng-Siong Chng, Xie Chen. (As a **Core Contributor**)
-<br> [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07229)
+[MMAE: A Massive Multitask Audio Editing Benchmark](https://arxiv.org/abs/2606.07229). [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07229)<br>
+Ziyang Ma\*, Ruiqi Yan\*, Ruiyang Xu\*, Jie Fang\*, Zhikang Niu\*, Yi-Wen Chao\*, **Wenming Tu\***, Tianrui Wang\*, Auden, Qi Chen, Wenxi Chen, Jiaying Chi, Yanru Huo, Zixuan Jiang, Xiquan Li, Yalin Li, Junxi Liu, Minghao Liu, Binghao Qiang, Yijia Shan, Zheshu Song, Tian Tan, Zixiang Wang, Zeyu Xie, Zhifei Xie, Xiaoyu Xing, Qixiang Xu, Chen Yang, Guanrou Yang, Shan Yang, Yifan Yang, Steve Yves, Haotian Zhang, Haina Zhu, Kai Yu, Liefeng Bo, Eng-Siong Chng, Xie Chen\#. (As a **Core Contributor**)<br>
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/ddlBoJack/MMAE)
 [![dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FFD21E?style=flat)](https://huggingface.co/datasets/BoJack/MMAE)
 [![demo](https://img.shields.io/badge/Demo-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=6At5nTWhlXI)
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge interspeech">INTERSPEECH 2026 · CCF-B</div><img src='images/publications/2026-visa.png' alt="VISA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge interspeech">INTERSPEECH 2026</div><img src='images/publications/2026-visa.png' alt="VISA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](https://arxiv.org/abs/2606.07264).&nbsp;INTERSPEECH 2026.<br>
-**Wenming Tu**, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng, Bohan Li, Ziyang Ma, Tao Liu, Shuai Fan, Kai Yu, Xie Chen, Zilong Zheng.
-<br> [![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07264)
+[VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](https://arxiv.org/abs/2606.07264). [![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07264)<br>
+**Wenming Tu**, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng, Bohan Li, Ziyang Ma, Tao Liu, Shuai Fan, Kai Yu, Xie Chen, Zilong Zheng.<br>
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge interspeech">INTERSPEECH 2026 · CCF-B</div><img src='images/publications/2026-sure.png' alt="SURE" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[A Unified and Reproducible Experimentation Framework for Speech Understanding](https://arxiv.org/abs/2605.30899).&nbsp;INTERSPEECH 2026.<br>
+- [![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30899) [A Unified and Reproducible Experimentation Framework for Speech Understanding](https://arxiv.org/abs/2605.30899).
 Jing Peng, Junhao Du, Chenghao Wang, Hanqi Li, Yi Yang, Yixuan Wang, Xiaoyu Gu, Guanyu Chen, Yucheng Wang, Jiang Li, Zhangjie Zhao, Haoran Wang, **Wenming Tu**, Haoyu Li, Duo Ma, Lirong Qian, Yu Xi, Wen Wen, Jiaqi Guo, Hui Zhang, Shuai Fan, Wenbin Jiang, Shuai Wang, Kai Yu.
-<br> [![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30899)
-</div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2026 · Preprint</div><img src='images/publications/2026-audio-mind.png' alt="Audio-Mind" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Audio-Mind: An Auditable Agentic Framework for Audio Understanding](https://arxiv.org/abs/2605.28480).&nbsp;Preprint.<br>
+- [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.28480) [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind) [Audio-Mind: An Auditable Agentic Framework for Audio Understanding](https://arxiv.org/abs/2605.28480).
 Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, **Wenming Tu**, Yu Xi, Zhaokai Sun, Kai Yu, Shuai Wang.
-<br> [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.28480)
-[![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
-</div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge icml">ICML 2026 · CCF-A</div><img src='images/publications/2026-avi-bench.png' alt="AVI-Bench" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge icml">ICML 2026</div><img src='images/publications/2026-avi-bench.png' alt="AVI-Bench" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs](https://fudancvl.github.io/AVI-Bench/).&nbsp;ICML 2026 (<font color=red>CCF-A</font>).<br>
-Yaoting Wang, Ziyi Zhang, **Wenming Tu**, Shaoxuan Xu, Wenjie Du, Cheng Liang, Weijun Wang, Yuanchao Li, Guangyao Li, Hao Fei, Yuanchun Li, Henghui Ding, Yunxin Liu.
-<br> [![paper](https://img.shields.io/badge/ICML%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07643)
+[AVI-Bench: Toward Human-like Audio-Visual Intelligence of Omni-MLLMs](https://arxiv.org/abs/2606.07643). [![paper](https://img.shields.io/badge/ICML%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07643)<br>
+Yaoting Wang, Ziyi Zhang, **Wenming Tu**, Shaoxuan Xu, Wenjie Du, Cheng Liang, Weijun Wang, Yuanchao Li, Guangyao Li, Hao Fei, Yuanchun Li, Henghui Ding, Yunxin Liu.<br>
 [![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://fudancvl.github.io/AVI-Bench/)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/FudanCVL/AVI-Bench)
 [![dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FFD21E?style=flat)](https://huggingface.co/datasets/FudanCVL/AVIBench)
@@ -81,9 +69,8 @@ Yaoting Wang, Ziyi Zhang, **Wenming Tu**, Shaoxuan Xu, Wenjie Du, Cheng Liang, W
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2026 · Preprint</div><img src='images/publications/2026-mova.png' alt="MOVA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[MOVA: Towards Scalable and Synchronized Video-Audio Generation](https://arxiv.org/abs/2602.08794).&nbsp;Preprint.<br>
-As a **core contributor** cooperate with SII-OpenMOSS Team.
-<br> [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.08794)
+[MOVA: Towards Scalable and Synchronized Video-Audio Generation](https://arxiv.org/abs/2602.08794). [![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.08794)<br>
+As a **core contributor** cooperate with SII-OpenMOSS Team.<br>
 [![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://mosi.cn/models/mova)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/OpenMOSS/MOVA)
 [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=flat)](https://huggingface.co/collections/OpenMOSS-Team/mova)
@@ -92,31 +79,27 @@ As a **core contributor** cooperate with SII-OpenMOSS Team.
 ## 2025
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2025 · Preprint</div><img src='images/publications/2025-ultravoice.png' alt="UltraVoice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).&nbsp;Preprint.<br>
-**Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.
-<br> [![paper](https://img.shields.io/badge/arXiv%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22588)
+[UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588). [![paper](https://img.shields.io/badge/arXiv%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22588)<br>
+**Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.<br>
 [![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://bigai-nlco.github.io/UltraVoice/)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/bigai-nlco/UltraVoice)
 [![model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-FFD21E?style=flat)](https://huggingface.co/tutu0604/UltraVoice-SFT)
 [![dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FFD21E?style=flat)](https://huggingface.co/datasets/tutu0604/UltraVoice)
 </div></div>
 
-- [Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382).&nbsp;NeurIPS DB Track 2025 (<font color=red>CCF-A</font>).<br>
+- [![paper](https://img.shields.io/badge/NeurIPS%20D%26B%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382) [Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382).
 Cooperate with the DeepMind Concordia Team.
-<br> [![paper](https://img.shields.io/badge/NeurIPS%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge acl">ACL 2025 · CCF-A</div><img src='images/publications/2025-llm-values.png' alt="LLM Values" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge acl">ACL Findings 2025</div><img src='images/publications/2025-llm-values.png' alt="LLM Values" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://aclanthology.org/2025.findings-acl.1188/).&nbsp;ACL 2025 Findings (<font color=red>CCF-A</font>).<br>
+[Are the Values of LLMs Structurally Aligned with Humans? A Causal Perspective](https://aclanthology.org/2025.findings-acl.1188/). [![paper](https://img.shields.io/badge/ACL%20Findings%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.00581)<br>
 Yipeng Kang, Junqi Wang, Yexin Li, Mengmeng Wang, **Wenming Tu**, Quansen Wang, Hengli Li, Tingjun Wu, Xue Feng, Fangwei Zhong, Zilong Zheng#.
-<br> [![paper](https://img.shields.io/badge/ACL%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.00581)
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge eurosys">EuroSys 2025 · CCF-A</div><img src='images/publications/2025-lora-lmm.png' alt="LoRA LMM" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge eurosys">EuroSys 2025</div><img src='images/publications/2025-lora-lmm.png' alt="LoRA LMM" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[Empower Vision Applications with LoRA LMM](https://dl.acm.org/doi/10.1145/3689031.3717472).&nbsp;EuroSys 2025 (<font color=red>CCF-A, Fall round (30/367=8.17%)</font>).<br>
-Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.
-<br> [![paper](https://img.shields.io/badge/EuroSys%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.00915)
+[Empower Vision Applications with LoRA LMM](https://dl.acm.org/doi/10.1145/3689031.3717472). [![paper](https://img.shields.io/badge/EuroSys%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.00915)<br>
+Liang Mi\*, Weijun Wang\*#, **Wenming Tu**, Qingfeng He, Rui Kong, Xinyu Fang, Yazhu Dong, Yikang Zhang, Yuanchun Li, Meng Li, Haipeng Dai, Guihai Chen, Yunxin Liu.<br>
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/mi150/VaLoRA)
 </div></div>
 
