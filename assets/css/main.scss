@@ -55,10 +55,14 @@
         display: flex;
         width: 100%;
         order: 2;
+        > div { position: relative; }   // 锚定左上角 badge
         img {
+            width: 100%;
             max-width: 400px;
+            aspect-ratio: 3 / 2;       // 统一所有 teaser 图框比例
+            object-fit: contain;        // 完整显示，不裁剪
+            background-color: #fff;     // contain 留白处用白底
             box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
         }
     }
     
@@ -98,12 +102,23 @@ h1:before, .anchor:before {
 }
 
 .badge {
-    padding-left: 1rem;
-    padding-right: 1rem;
     position: absolute;
+    top: 0;
+    left: 0;
+    padding: .15em 1rem;
     margin-top: .5em;
     margin-left: -.5em;
     color: white;
-    background-color: #00369f;
+    background-color: #00369f;   // 默认蓝(兜底)
     font-size: .8em;
+    font-weight: 600;
+    border-radius: 2px;
+    white-space: nowrap;
+
+    &.arxiv       { background-color: #6e7781; }   // Preprint  灰
+    &.interspeech { background-color: #1c6fb3; }   // CCF-B     蓝
+    &.icml        { background-color: #c2410c; }   // CCF-A     橙红
+    &.neurips     { background-color: #6d28d9; }   // CCF-A     紫
+    &.acl         { background-color: #be123c; }   // CCF-A     红
+    &.eurosys     { background-color: #0e7490; }   // CCF-A     青
 }
