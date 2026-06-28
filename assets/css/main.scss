@@ -137,3 +137,12 @@ h1:before, .anchor:before {
     border-radius: 8px;
     object-fit: cover;
 }
+
+// 链接焦点框：鼠标点击不显示橙框，仅键盘 Tab 导航时显示（保留无障碍可访问性）
+a:focus {
+    outline: 0;
+}
+a:focus-visible {
+    outline: 2px solid #1c6fb3;
+    outline-offset: 2px;
+}
