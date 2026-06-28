@@ -50,23 +50,18 @@ Ziyang Ma\*, Ruiqi Yan\*, Ruiyang Xu\*, Jie Fang\*, Zhikang Niu\*, Yi-Wen Chao\*
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge interspeech">INTERSPEECH 2026</div><img src='images/publications/2026-visa.png' alt="VISA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](https://arxiv.org/abs/2606.07264).<br>
-**Wenming Tu**, Jian Gao, Yanru Huo, Yixuan Wang, Jing Peng, Bohan Li, Ziyang Ma, Tao Liu, Shuai Fan, Kai Yu, Xie Chen, Zilong Zheng.<br>
+**Wenming Tu\***, Jian Gao\*, Yanru Huo, Yixuan Wang, Jing Peng, Bohan Li, Ziyang Ma, Tao Liu, Shuai Fan\#, Kai Yu, Xie Chen, Zilong Zheng\#.<br>
 [![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07264)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
 <p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> VISA is our 2nd-place submission to the Interspeech 2026 Audio Reasoning Challenge (Agent Track), built on a "LALM-as-a-Tool" paradigm. It combines multi-modal feature extraction, model-voting inference with consistency checking, and rubric-aligned category-aware routing, reaching a 66.23% Rubrics score and the highest accuracy (77.40%) on the official leaderboard.</p>
 </div></div>
 
 <div class='pub-item' markdown="1">
-[A Unified and Reproducible Experimentation Framework for Speech Understanding](https://arxiv.org/abs/2605.30899).<br>
-Jing Peng, Junhao Du, Chenghao Wang, Hanqi Li, Yi Yang, Yixuan Wang, Xiaoyu Gu, Guanyu Chen, Yucheng Wang, Jiang Li, Zhangjie Zhao, Haoran Wang, **Wenming Tu**, Haoyu Li, Duo Ma, Lirong Qian, Yu Xi, Wen Wen, Jiaqi Guo, Hui Zhang, Shuai Fan, Wenbin Jiang, Shuai Wang, Kai Yu.<br>
-[![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30899)
+[![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30899) [A Unified and Reproducible Experimentation Framework for Speech Understanding](https://arxiv.org/abs/2605.30899). Jing Peng, Junhao Du, Chenghao Wang, Hanqi Li, Yi Yang, Yixuan Wang, Xiaoyu Gu, Guanyu Chen, Yucheng Wang, Jiang Li, Zhangjie Zhao, Haoran Wang, **Wenming Tu**, Haoyu Li, Duo Ma, Lirong Qian, Yu Xi, Wen Wen, Jiaqi Guo, Hui Zhang, Shuai Fan, Wenbin Jiang, Shuai Wang, Kai Yu.
 </div>
 
 <div class='pub-item' markdown="1">
-[Audio-Mind: An Auditable Agentic Framework for Audio Understanding](https://arxiv.org/abs/2605.28480).<br>
-Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, **Wenming Tu**, Yu Xi, Zhaokai Sun, Kai Yu, Shuai Wang.<br>
-[![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.28480)
-[![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
+[![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.28480) [Audio-Mind: An Auditable Agentic Framework for Audio Understanding](https://arxiv.org/abs/2605.28480). Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, **Wenming Tu**, Yu Xi, Zhaokai Sun, Kai Yu, Shuai Wang. [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge icml">ICML 2026</div><img src='images/publications/2026-avi-bench.png' alt="AVI-Bench" width="100%"></div></div>
@@ -105,9 +100,7 @@ As a **core contributor** cooperate with SII-OpenMOSS Team.<br>
 </div></div>
 
 <div class='pub-item' markdown="1">
-[Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382).<br>
-Cooperate with the DeepMind Concordia Team.<br>
-[![paper](https://img.shields.io/badge/NeurIPS%20D%26B%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382)
+[![paper](https://img.shields.io/badge/NeurIPS%20D%26B%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382) [Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382). Cooperate with the DeepMind Concordia Team.
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge acl">ACL Findings 2025</div><img src='images/publications/2025-llm-values.png' alt="LLM Values" width="100%"></div></div>
