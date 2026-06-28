@@ -61,7 +61,7 @@ Ziyang Ma\*, Ruiqi Yan\*, Ruiyang Xu\*, Jie Fang\*, Zhikang Niu\*, Yi-Wen Chao\*
 </div>
 
 <div class='pub-item' markdown="1">
-[![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.28480) [Audio-Mind: An Auditable Agentic Framework for Audio Understanding](https://arxiv.org/abs/2605.28480). Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, **Wenming Tu**, Yu Xi, Zhaokai Sun, Kai Yu, Shuai Wang. [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
+[![paper](https://img.shields.io/badge/arXiv%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.28480) [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind) [Audio-Mind: An Auditable Agentic Framework for Audio Understanding](https://arxiv.org/abs/2605.28480). Yucheng Wang, Jing Peng, Hanqi Li, Chenghao Wang, **Wenming Tu**, Yu Xi, Zhaokai Sun, Kai Yu, Shuai Wang.
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge icml">ICML 2026</div><img src='images/publications/2026-avi-bench.png' alt="AVI-Bench" width="100%"></div></div>
