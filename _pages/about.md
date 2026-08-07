@@ -24,7 +24,7 @@ My research interests primarily focus on **speech and audio processing** and **m
 **Think bold! Work hard!**
 
 # 🔥 News
-- *2026.06*: &nbsp;🎉🎉 2 papers have been accepted by INTERSPEECH 2026, with VISA selected for an Oral Presentation!
+- *2026.06*: &nbsp;🎉🎉 2 papers have been accepted by INTERSPEECH 2026, with VISA selected for an <span class="oral-highlight">Oral</span> Presentation!
 - *2026.05*: &nbsp;🎉🎉 1 paper has been accepted by ICML 2026!
 - *2026.02*: &nbsp;🎉🎉 We won 🥈 (2nd place) in the Agent Track of the Interspeech 2026 Audio Reasoning Challenge. See the [Leaderboard](https://audio-reasoning-challenge.github.io/leaderboard/); the official report is on [Challenge Report](https://arxiv.org/abs/2602.14224).
 - *2025.09*: &nbsp;🎉🎉 1 paper has been accepted by NeurIPS 2025!
@@ -47,12 +47,12 @@ Ziyang Ma\*, Ruiqi Yan\*, Ruiyang Xu\*, Jie Fang\*, Zhikang Niu\*, Yi-Wen Chao\*
 <p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> The first comprehensive benchmark for instruction-based audio editing, spanning 7 audio modalities with a taxonomy of 6 complexity levels, 2 granularities, and 8 operation types. Its 2,000 samples are scored against 17,741 rubric-based criteria, revealing that even leading models score below 5% Exact Match—dropping to 0% on complex mixed-modality tasks.</p>
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge interspeech">INTERSPEECH 2026 · Oral</div><img src='images/publications/2026-visa.png' alt="VISA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge interspeech oral">INTERSPEECH 2026 · Oral</div><img src='images/publications/2026-visa.png' alt="VISA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [VISA: A Visual Information Strengthened Audio-Reasoning System for the Interspeech 2026 ARC Agent Track](https://arxiv.org/abs/2606.07264).<br>
 **Wenming Tu\***, Jian Gao\*, Yanru Huo, Yixuan Wang, Jing Peng, Bohan Li, Ziyang Ma, Tao Liu, Shuai Fan\#, Kai Yu, Xie Chen, Zilong Zheng\#.<br>
 [![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.07264)
-[![oral](https://img.shields.io/badge/Presentation-Oral-d97706?style=flat)](https://arxiv.org/abs/2606.07264)
+[![oral](https://img.shields.io/badge/Presentation-Oral-c62828?style=flat)](https://arxiv.org/abs/2606.07264)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/DELTA-DoubleWise/Audio-Mind)
 <p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> VISA is our 2nd-place submission to the Interspeech 2026 Audio Reasoning Challenge (Agent Track), built on a "LALM-as-a-Tool" paradigm. It combines multi-modal feature extraction, model-voting inference with consistency checking, and rubric-aligned category-aware routing, reaching a 66.23% Rubrics score and the highest accuracy (77.40%) on the official leaderboard.</p>
 </div></div>
