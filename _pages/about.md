@@ -24,7 +24,8 @@ My research interests primarily focus on **speech and audio processing** and **m
 **Think bold! Work hard!**
 
 # 🔥 News
-- *2026.06*: &nbsp;🎉🎉 2 papers have been accepted by INTERSPEECH 2026, with VISA selected for an <span class="oral-highlight">Oral</span> Presentation!
+- *2026.08*: &nbsp;🎉🎉 2 papers have been accepted to Findings of EMNLP 2026!
+- *2026.06*: &nbsp;🎉🎉 2 papers have been accepted by INTERSPEECH 2026, both selected for <span class="oral-highlight">Oral</span> Presentations!
 - *2026.05*: &nbsp;🎉🎉 1 paper has been accepted by ICML 2026!
 - *2026.02*: &nbsp;🎉🎉 We won 🥈 (2nd place) in the Agent Track of the Interspeech 2026 Audio Reasoning Challenge. See the [Leaderboard](https://audio-reasoning-challenge.github.io/leaderboard/); the official report is on [Challenge Report](https://arxiv.org/abs/2602.14224).
 - *2025.09*: &nbsp;🎉🎉 1 paper has been accepted by NeurIPS 2025!
@@ -58,7 +59,7 @@ Ziyang Ma\*, Ruiqi Yan\*, Ruiyang Xu\*, Jie Fang\*, Zhikang Niu\*, Yi-Wen Chao\*
 </div></div>
 
 <div class='pub-item' markdown="1">
-[![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30899) [A Unified and Reproducible Experimentation Framework for Speech Understanding](https://arxiv.org/abs/2605.30899). Jing Peng\*, Junhao Du\*, Chenghao Wang\*, Hanqi Li\*, Yi Yang\*, Yixuan Wang, Xiaoyu Gu, Guanyu Chen, Yucheng Wang, Jiang Li, Zhangjie Zhao, Haoran Wang, **Wenming Tu**, Haoyu Li, Duo Ma, Lirong Qian, Yu Xi, Wen Wen, Jiaqi Guo, Hui Zhang, Shuai Fan, Wenbin Jiang, Shuai Wang, Kai Yu\#.
+[![paper](https://img.shields.io/badge/INTERSPEECH%202026-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30899) [![oral](https://img.shields.io/badge/Presentation-Oral-c62828?style=flat)](https://arxiv.org/abs/2605.30899) [A Unified and Reproducible Experimentation Framework for Speech Understanding](https://arxiv.org/abs/2605.30899). Jing Peng\*, Junhao Du\*, Chenghao Wang\*, Hanqi Li\*, Yi Yang\*, Yixuan Wang, Xiaoyu Gu, Guanyu Chen, Yucheng Wang, Jiang Li, Zhangjie Zhao, Haoran Wang, **Wenming Tu**, Haoyu Li, Duo Ma, Lirong Qian, Yu Xi, Wen Wen, Jiaqi Guo, Hui Zhang, Shuai Fan, Wenbin Jiang, Shuai Wang, Kai Yu\#.
 </div>
 
 <div class='pub-item' markdown="1">
@@ -88,11 +89,11 @@ As a **core contributor** cooperate with SII-OpenMOSS Team.<br>
 </div></div>
 
 ## 2025
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2025 · Preprint</div><img src='images/publications/2025-ultravoice.png' alt="UltraVoice" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge emnlp">EMNLP 2026 · Findings</div><img src='images/publications/2025-ultravoice.png' alt="UltraVoice" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).<br>
 **Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.<br>
-[![paper](https://img.shields.io/badge/arXiv%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22588)
+[![paper](https://img.shields.io/badge/EMNLP%202026%20Findings-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22588)
 [![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://bigai-nlco.github.io/UltraVoice/)
 [![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/bigai-nlco/UltraVoice)
 [![model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-FFD21E?style=flat)](https://huggingface.co/tutu0604/UltraVoice-SFT)
