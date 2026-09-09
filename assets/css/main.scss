@@ -123,6 +123,7 @@ h1:before, .anchor:before {
     white-space: nowrap;
 
     &.arxiv { background-color: #6e7781; }   // Preprint(arXiv) 灰
+    &.technical-report { background-color: #7957a8; } // Technical Report 紫
 
     // 已发表会议统一用蓝色
     &.interspeech,

@@ -37,6 +37,18 @@ My research interests primarily focus on **speech and audio processing** and **m
 > (*represents co-first authors, #represents corresponding authors)
 
 ## 2026 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge technical-report">Technical Report</div><img src='images/publications/2026-auk.png' alt="AuK" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing](https://arxiv.org/abs/2609.08936).<br>
+Ziyang Ma, Zhikang Niu, **Wenming Tu**, Tianrui Wang, Ruiqi Yan, Junxi Liu, Yanru Huo, Nickk Huang, Yang Liu, Qicong Xie, Zeyu Xie, Hui Wang, Haitao Li, Zixuan Jiang, Yalin Li, Jie Fang, Yifan Duan, Zeyue Tian, Guangzheng Li, Haina Zhu, Shuyi Wang, Jinwen Wang, Mingyu Cui, Tian Tan, Auden, Sen Liang, Steve Yves, Shan Yang, Liefeng Bo, Zilong Zheng, Kai Yu, Eng-Siong Chng, Xie Chen\#. (As a **Core Contributor**)<br>
+[![paper](https://img.shields.io/badge/Technical%20Report-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.08936)
+[![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://auk-project.github.io/)
+[![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/Tencent-Hunyuan/AuK)
+[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-FFD21E?style=flat)](https://huggingface.co/tencent/AuK)
+[![demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-FFD21E?style=flat)](https://huggingface.co/spaces/tencent/AuK)
+<p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> AuK is a 1.5B open-source foundation model that unifies speech generation and editing through natural-language instructions. Trained on millions of hours of diverse audio, it supports zero-shot and instruction-based TTS, content, acoustic, and paralinguistic editing, speech enhancement, and source separation; AuK-Flash further enables fast four-step inference.</p>
+</div></div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2026 · Preprint</div><img src='images/publications/2026-mmae.png' alt="MMAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [MMAE: A Massive Multitask Audio Editing Benchmark](https://arxiv.org/abs/2606.07229).<br>
@@ -77,7 +89,7 @@ Yaoting Wang, Ziyi Zhang, **Wenming Tu**, Shaoxuan Xu, Wenjie Du, Cheng Liang, W
 <p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> A cognitively-inspired benchmark evaluating Omni-MLLMs across perception, understanding, and reasoning through cross-modal audio-visual tasks. An extension, AVI-Bench-PriSe, probes primitive audio-visual sensation with low-semantic stimuli; experiments expose substantial limitations and yield a four-level AVI taxonomy.</p>
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge arxiv">arXiv 2026 · Preprint</div><img src='images/publications/2026-mova.png' alt="MOVA" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge technical-report">Technical Report</div><img src='images/publications/2026-mova.png' alt="MOVA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [MOVA: Towards Scalable and Synchronized Video-Audio Generation](https://arxiv.org/abs/2602.08794).<br>
 As a **core contributor** cooperate with SII-OpenMOSS Team.<br>
