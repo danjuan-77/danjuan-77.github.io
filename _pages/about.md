@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I'm Wenming Tu (涂文明). I am currently a first-year Ph.D. student in Computer Science and Technology at Shanghai Jiao Tong University (SJTU). I am jointly supervised by Prof. [Xie Chen](https://chenxie95.github.io/) from the [X-LANCE Lab](https://x-lance.sjtu.edu.cn/) and Dr. [Zilong Zheng](https://zilongzheng.github.io/) from the [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), NLCo Group. I am passionate about advancing the frontiers of AI research and developing innovative solutions in this rapidly evolving field.
+Hi, I'm Wenming Tu (涂文明). I am currently a second-year Ph.D. student in Computer Science and Technology at Shanghai Jiao Tong University (SJTU). I am jointly supervised by Prof. [Xie Chen](https://chenxie95.github.io/) from the [X-LANCE Lab](https://x-lance.sjtu.edu.cn/) and Dr. [Zilong Zheng](https://zilongzheng.github.io/) from the [Beijing Institute for General Artificial Intelligence (BIGAI)](https://www.bigai.ai/), NLCo Group. I am passionate about advancing the frontiers of AI research and developing innovative solutions in this rapidly evolving field.
 
 My research interests primarily focus on **speech and audio processing** and **multimodal large language models**. I aim to explore how these technologies can enhance human-computer interaction, improve speech synthesis and recognition systems, and advance AI capabilities in multimodal environments.
 
