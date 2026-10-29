@@ -37,6 +37,26 @@ My research interests primarily focus on **speech and audio processing** and **m
 > (*represents co-first authors, #represents corresponding authors)
 
 ## 2026 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge emnlp">EMNLP 2026 · Findings</div><img src='images/publications/2026-audio-reaper.png' alt="Audio-ReaPer framework (Figure 3)" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Perception Is the Bottleneck for Large Audio Reasoning Models](https://aclanthology.org/2026.findings-emnlp.1272/).<br>
+Ziyang Ma, Ruiyang Xu, **Wenming Tu**, Zhenghao Xing, Yuxuan Wang, Yunfei Chu, Jin Xu, Kai Yu, Junyang Lin, Eng-Siong Chng, Xie Chen\#.<br>
+[![paper](https://img.shields.io/badge/EMNLP%202026%20Findings-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://aclanthology.org/2026.findings-emnlp.1272.pdf)
+<p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> Audio-ReaPer addresses the perception bottleneck in audio reasoning through perception-enhanced SFT, perception-focused RLVR, and a perception density reward. The 7B model sets new state-of-the-art results on MMAU, MMAU-Pro, and MMAR, reaching 68.5% on MMAR and outperforming GPT-4o Audio and Gemini 2.5 Flash.</p>
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge emnlp">EMNLP 2026 · Findings</div><img src='images/publications/2025-ultravoice.png' alt="UltraVoice" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).<br>
+**Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.<br>
+[![paper](https://img.shields.io/badge/EMNLP%202026%20Findings-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22588)
+[![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://bigai-nlco.github.io/UltraVoice/)
+[![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/bigai-nlco/UltraVoice)
+[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-FFD21E?style=flat)](https://huggingface.co/tutu0604/UltraVoice-SFT)
+[![dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FFD21E?style=flat)](https://huggingface.co/datasets/tutu0604/UltraVoice)
+<p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> UltraVoice is a 830+ hour speech-dialogue dataset with instructions controlling six style dimensions—emotion, speed, volume, accent, language, and composite styles. Fine-tuning SLAM-Omni and VocalNet on it lifts Mean Opinion Score by 29–42% and Instruction-Following Rate by up to 40 points, while preserving conversational ability.</p>
+</div></div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge technical-report">Technical Report</div><img src='images/publications/2026-auk.png' alt="AuK" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing](https://arxiv.org/abs/2609.08936).<br>
@@ -101,18 +121,6 @@ As a **core contributor** cooperate with SII-OpenMOSS Team.<br>
 </div></div>
 
 ## 2025
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge emnlp">EMNLP 2026 · Findings</div><img src='images/publications/2025-ultravoice.png' alt="UltraVoice" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[UltraVoice: Scaling Fine-Grained Style-Controlled Speech Conversations for Spoken Dialogue Models](https://arxiv.org/abs/2510.22588).<br>
-**Wenming Tu**, Guanrou Yang, Ruiqi Yan, Wenxi Chen, Ziyang Ma, Yipeng Kang, Kai Yu, Xie Chen#, Zilong Zheng#.<br>
-[![paper](https://img.shields.io/badge/EMNLP%202026%20Findings-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.22588)
-[![project](https://img.shields.io/badge/%F0%9F%8C%90%20Project%20Page-1f6feb?style=flat)](https://bigai-nlco.github.io/UltraVoice/)
-[![code](https://img.shields.io/badge/Code-181717?style=flat&logo=github&logoColor=white)](https://github.com/bigai-nlco/UltraVoice)
-[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-FFD21E?style=flat)](https://huggingface.co/tutu0604/UltraVoice-SFT)
-[![dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FFD21E?style=flat)](https://huggingface.co/datasets/tutu0604/UltraVoice)
-<p style="margin:.6em 0 0;font-size:.85em;color:#555"><b>TL;DR:</b> UltraVoice is a 830+ hour speech-dialogue dataset with instructions controlling six style dimensions—emotion, speed, volume, accent, language, and composite styles. Fine-tuning SLAM-Omni and VocalNet on it lifts Mean Opinion Score by 29–42% and Instruction-Following Rate by up to 40 points, while preserving conversational ability.</p>
-</div></div>
-
 <div class='pub-item' markdown="1">
 [![paper](https://img.shields.io/badge/NeurIPS%20D%26B%202025-b31b1b?style=flat&logo=arxiv&logoColor=white)](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382) [Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia](https://neurips.cc/virtual/2025/loc/san-diego/poster/121382). Cooperate with the DeepMind Concordia Team.
 </div>
